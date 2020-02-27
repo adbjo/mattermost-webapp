@@ -1,0 +1,68 @@
+[INFO] -----------< org.carlspring.strongbox:strongbox-masterbuild >-----------
+[INFO] Building Strongbox: Masterbuild 1.0-SNAPSHOT                     [42/42]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ strongbox-masterbuild ---
+[INFO] 
+[INFO] --- maven-source-plugin:2.2.1:jar-no-fork (attach-sources) @ strongbox-masterbuild ---
+[INFO] 
+[INFO] >>> maven-source-plugin:2.2.1:jar (attach-sources) > generate-sources @ strongbox-masterbuild >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:2.2.1:jar (attach-sources) < generate-sources @ strongbox-masterbuild <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:2.2.1:jar (attach-sources) @ strongbox-masterbuild ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ strongbox-masterbuild ---
+[INFO] Installing /Users/adam/Documents/se/strongbox/pom.xml to /Users/adam/.m2/repository/org/carlspring/strongbox/strongbox-masterbuild/1.0-SNAPSHOT/strongbox-masterbuild-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Strongbox: Masterbuild 1.0-SNAPSHOT:
+[INFO] 
+[INFO] Strongbox: Resources [Common] ...................... SUCCESS [  1.518 s]
+[INFO] Strongbox: Resources [Storage API] ................. SUCCESS [  0.114 s]
+[INFO] Strongbox: Resources ............................... SUCCESS [  0.011 s]
+[INFO] Strongbox: Commons ................................. SUCCESS [  3.364 s]
+[INFO] Strongbox: Configuration ........................... SUCCESS [  0.294 s]
+[INFO] Strongbox: Data Service ............................ SUCCESS [  1.069 s]
+[INFO] Strongbox: Client .................................. SUCCESS [  0.897 s]
+[INFO] Strongbox: Metadata [Maven API] .................... SUCCESS [  3.814 s]
+[INFO] Strongbox: Testing [Core] .......................... SUCCESS [  0.524 s]
+[INFO] Strongbox: Security API ............................ SUCCESS [  4.616 s]
+[INFO] Strongbox: Storage [Core] .......................... SUCCESS [  1.234 s]
+[INFO] Strongbox: Event API ............................... SUCCESS [  0.337 s]
+[INFO] Strongbox: Authentication API ...................... SUCCESS [  0.124 s]
+[INFO] Strongbox: User Management ......................... SUCCESS [ 13.602 s]
+[INFO] Strongbox: Authentication Provider [Default] ....... SUCCESS [  0.297 s]
+[INFO] Strongbox: Authentication Support .................. SUCCESS [  0.530 s]
+[INFO] Strongbox: Authentication Provider [LDAP] .......... SUCCESS [ 13.273 s]
+[INFO] Strongbox: Authentication Providers ................ SUCCESS [  0.009 s]
+[INFO] Strongbox: Authentication Registry ................. SUCCESS [ 46.140 s]
+[INFO] Strongbox: Security ................................ SUCCESS [  0.008 s]
+[INFO] Strongbox: Storage [API] ........................... SUCCESS [ 20.407 s]
+[INFO] Strongbox: Cron [API] .............................. SUCCESS [ 11.550 s]
+[INFO] Strongbox: Cron [Tasks] ............................ SUCCESS [  1.479 s]
+[INFO] Strongbox: Storage [Maven Layout Provider] ......... SUCCESS [ 36.487 s]
+[INFO] Strongbox: Storage [Nuget Layout Provider] ......... SUCCESS [ 21.848 s]
+[INFO] Strongbox: Web Forms ............................... SUCCESS [  0.437 s]
+[INFO] Strongbox: REST Client ............................. SUCCESS [  0.527 s]
+[INFO] Strongbox: Testing [Web] ........................... SUCCESS [  1.213 s]
+[INFO] Strongbox: Testing ................................. SUCCESS [  0.007 s]
+[INFO] Strongbox: Cron .................................... SUCCESS [  0.006 s]
+[INFO] Strongbox: Storage [P2 Layout Provider] ............ SUCCESS [  0.636 s]
+[INFO] Strongbox: Storage [NPM Layout Provider] ........... SUCCESS [ 14.893 s]
+[INFO] Strongbox: Storage [PyPi Layout Provider] .......... SUCCESS [ 15.090 s]
+[INFO] Strongbox: Storage [Raw Layout Provider] ........... SUCCESS [ 42.288 s]
+[INFO] Strongbox: Storage Layout Providers ................ SUCCESS [  0.007 s]
+[INFO] strongbox-storage-rpm-layout-provider .............. SUCCESS [  1.796 s]
+[INFO] Strongbox: Storage Maven Layout .................... SUCCESS [  0.007 s]
+[INFO] Strongbox: Storage ................................. SUCCESS [  0.006 s]
+[INFO] Strongbox: AQL ..................................... SUCCESS [  4.914 s]
+[INFO] Strongbox: Web Core ................................ SUCCESS [01:42 min]
+[INFO] Strongbox: Distribution ............................ SUCCESS [ 20.765 s]
+[INFO] Strongbox: Masterbuild ............................. SUCCESS [  0.007 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  06:29 min
+[INFO] Finished at: 2020-02-27T13:13:18+01:00
+[INFO] ------------------------------------------------------------------------
