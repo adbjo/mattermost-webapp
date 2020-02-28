@@ -47,6 +47,14 @@ Optional (point 3): trace tests to requirements.
 
 ### Existing test cases relating to refactored code
 
+All test cases related to the code that was refactored have been further documented in their respective files. They can be found here;
+
+[desktop_notification_settings.test.jsx](https://github.com/adbjo/mattermost-webapp/blob/Documentation_Report/components/user_settings/notifications/desktop_notification_settings.test.jsx)
+
+[manage_auto_responder.test.jsx](https://github.com/adbjo/mattermost-webapp/blob/Documentation_Report/components/user_settings/notifications/manage_auto_responder.test.jsx)
+
+[user_settings_notifications.test.js](https://github.com/adbjo/mattermost-webapp/blob/Documentation_Report/components/user_settings/notifications/user_settings_notifications.test.js)
+
 ### Test results
 
 Overall results with link to a copy or excerpt of the logs (before/after
