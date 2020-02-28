@@ -21,8 +21,6 @@ there is no need to write much here. If the first project(s) you picked
 ended up being unsuitable, you can describe the "onboarding experience"
 for each project, along with reason(s) why you changed to a different one.
 
-TODO: add more description
-
 The first project we chose was Strongbox https://github.com/strongbox/strongbox, Strongbox is an OSS artifact repository manager with clear instructions (https://strongbox.github.io/developer-guide/building-the-code.html) on how to build the project. The project uses maven and all one had to do to build the project was to clone the repository and run ´´´mvn clean install´´´ in the local clone. The project has an active community and we were in touch with the developers whom were ready to assist us. In the end the issue proved a bit too complicated and we decided to change project.
 
 The project we ended up working on was Mattermost, an open source and self hosted alternative to the messaging platform Slack. Mattermost has well documented information on how to run their project (https://developers.mattermost.com/contribute/webapp/developer-setup/). There were no trouble in building the project. Just like with Strongbox there was quite an active community, in the Mattermost application itself infact, where you could ask questions and get help in a moments notice. This was used in a couple of instances where we got stuck because of mostly files outside of our issue scope giving us problems.
@@ -158,6 +156,9 @@ First off I looked through the mattermost [documentation](https://developers.mat
 Kasper: 3 hours
 
 I went through the same process as Gabriel.
+
+Johan: 2.5 hours
+Went through the same procees as Gabriel, except for learning typescript, which I knew since before.
 
 Robin: 3.5 hours
 
