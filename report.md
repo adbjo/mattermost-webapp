@@ -94,23 +94,23 @@ Optional (point 5): considered for acceptance (passes all automated checks).
  ( https://github.com/strongbox/strongbox/issues/1398 )
 For each team member, how much time was spent in
 
-1. plenary discussions/meetings;
+### 1. plenary discussions/meetings;
 
 Everyone: 1 hour
 
 We found a project and issue that looked promising and proceeded to read documentation and set up.
 
-3. reading documentation;
+### 3. reading documentation;
     
 Everyone: 45 min
 
-4. configuration and setup;
+### 4. configuration and setup;
     
 Everyone: 45 min
 
 The project is rather large and took some time to set-up and some members had some issues that we had to figure out.
 
-5. analyzing code/output;
+### 5. analyzing code/output;
 
 Everyone: 3 hour
 We all went through the documentation and tried to understand the code. We realized the issue was a bit too complex for us and decided to find a new issue.
@@ -123,24 +123,24 @@ For each team member, how much time was spent in
 
 Everyone: 2.5 hours
 
-Took a while to find another project, which we looked for by going through different github repositories that had a lot of issues, good documentation and the 'good first issue' label. Once mattermost was found we started to read up on documentation and set it up.
+- Took a while to find another project, which we looked for by going through different github repositories that had a lot of issues, good documentation and the 'good first issue' label. Once mattermost was found we started to read up on documentation and set it up.
 
 ### 2. discussions within parts of the group;
 
 Gabriel: 2.5 hours
 
-Discussed report writing with Kasper and typescript conventions in repository with Robin and Adam.
+- Discussed report writing with Kasper and typescript conventions in repository with Robin and Adam.
 
 Kasper: 4.5 hours
 
-Looking for new projects with Johan, discussed report writing with Gabriel and to find the actual issue to work on with Robin and Adam. 
+- Looking for new projects with Johan, discussed report writing with Gabriel and to find the actual issue to work on with Robin and Adam. 
 
 Robin: 3 hours
 
-Discussed potential issues with Kasper and Adam and the typescript conventions in the repository with Adam and Gabriel.
+- Discussed potential issues with Kasper and Adam and the typescript conventions in the repository with Adam and Gabriel.
 
 Johan: 3.5 hour
-Looking for new projects with Kasper, and being the local typescript-guru, helping everyone in the group.
+- Looking for new projects with Kasper, and being the local typescript-guru, helping everyone in the group.
 
 Adam: 3 hours
 
@@ -152,18 +152,18 @@ Adam: 3 hours
 
 Gabriel: 3 hours
 
-First off I looked through the mattermost [documentation](https://developers.mattermost.com/contribute/webapp/) to learn more about how the project is set up and how components and testing is done in the project which they described quite nicely. After this, I had to take a closer look at how typescript worked, to learn it basically, and related issues to see what the convention was when refactoring.
+- First off I looked through the mattermost [documentation](https://developers.mattermost.com/contribute/webapp/) to learn more about how the project is set up and how components and testing is done in the project which they described quite nicely. After this, I had to take a closer look at how typescript worked, to learn it basically, and related issues to see what the convention was when refactoring.
 
 Kasper: 3 hours
 
-I went through the same process as Gabriel.
+- I went through the same process as Gabriel.
 
 Johan: 2.5 hours
-Went through the same procees as Gabriel, except for learning typescript, which I knew since before.
+- Went through the same procees as Gabriel, except for learning typescript, which I knew since before.
 
 Robin: 3.5 hours
 
-I basically did the same stuff as Gabriel, a lot of time spent looking through old issues and PRs to understand their conventions.
+- I basically did the same stuff as Gabriel, a lot of time spent looking through old issues and PRs to understand their conventions.
 
 Adam: 3 hours
 
@@ -183,7 +183,7 @@ To setup the development environment, these dependencies were needed:
 
 Gabriel: 1.5 hours
 
-It went quite smoothly for the most part, but we had some issues with getting the Docker environment to work properly. After reinstalling it and its dependencies it magically started working.
+- It went quite smoothly for the most part, but we had some issues with getting the Docker environment to work properly. After reinstalling it and its dependencies it magically started working.
 
 Kasper: 1.5 hours
 
@@ -191,7 +191,7 @@ Johan: 1.5 hours
 
 Robin: 2.5 hours
 
-My computer is old as @#%$ and I had some problems with node/npm.
+- My computer is old as @#%$ and I had some problems with node/npm.
 
 Adam: 2 hours
 
@@ -202,14 +202,14 @@ Adam: 2 hours
 
 Gabriel: 1.5 hours
 
-Analyzing relevant tests and code in order to add documentation for them and to figure out types to use for variables that require them.
+- Analyzing relevant tests and code in order to add documentation for them and to figure out types to use for variables that require them.
 
 Kasper: 1.5 hours
 
 Robin: 2 hours
 
 Johan: 4h
-See point 7.
+- See point 7.
 
 Adam: 5 hours
 
@@ -222,13 +222,13 @@ Adam: 5 hours
 
 Gabriel: 4 hours
 
-Writing code documentation and report
+- Writing code documentation and report
 
 Kasper: 2 hours
 
 Robin: 3 hours
 
-Code documentation for the tests and report writing, also helped with the UML class diagram.
+- Code documentation for the tests and report writing, also helped with the UML class diagram.
 
 Johan: 3 hours
 
@@ -240,19 +240,19 @@ Adam: 3 hours
 
 Gabriel: 5 hours
 
-Not a lot of code had to be changed in my assigned file which was user_settings_notifications.test.tsx, just took a little bit for me to figure out how typescript properly worked. Most of my time was spent pair-programming with Kasper on the manage_auto_responder file.
+- Not a lot of code had to be changed in my assigned file which was user_settings_notifications.test.tsx, just took a little bit for me to figure out how typescript properly worked. Most of my time was spent pair-programming with Kasper on the manage_auto_responder file.
 
 Robin: 4.5 hours
 
-My assigned work was on index and desktop_notification_settings, but as Gabriel it took some time to understand typescript and the changes themselves were not that large. I did some pair-programming with Adam during the remaining time.
+- My assigned work was on index and desktop_notification_settings, but as Gabriel it took some time to understand typescript and the changes themselves were not that large. I did some pair-programming with Adam during the remaining time.
 
 Kasper: 6 hours
 
-Mainly worked on manage_auto_responder file and manage_auto_responder.test file. Had to change proptypes to Props in manage_auto_responder file and move them outside of the function and update some parameters. There was some issue with some of the props and I had to get in touch with the developers whom gave me premission to add the props in autosize_textarea. Gabriel pair-programmed with me on manage_auto_responder.
+- Mainly worked on manage_auto_responder file and manage_auto_responder.test file. Had to change proptypes to Props in manage_auto_responder file and move them outside of the function and update some parameters. There was some issue with some of the props and I had to get in touch with the developers whom gave me premission to add the props in autosize_textarea. Gabriel pair-programmed with me on manage_auto_responder.
 
 Johan: 7 hours
 
-Had `user_settings_notifications.tsx` as main file to migrate. This was the primary file in the folder and therefor had quite a lot of connections, internally to other components in the folder as well as externally through props from parent components. To get all the prop and state types correct I had to do a lot of research into neighboring components as well as into the redux files. This led me to the `UserProfile` interface and the `utils/constants.jsx` files. The latter had to be converted into typescript to gain type benefits to `user_settings_notifications.tsx`. This further led down to finding a few bugs as well as a few questions regarding these external resources.
+- Had `user_settings_notifications.tsx` as main file to migrate. This was the primary file in the folder and therefor had quite a lot of connections, internally to other components in the folder as well as externally through props from parent components. To get all the prop and state types correct I had to do a lot of research into neighboring components as well as into the redux files. This led me to the `UserProfile` interface and the `utils/constants.jsx` files. The latter had to be converted into typescript to gain type benefits to `user_settings_notifications.tsx`. This further led down to finding a few bugs as well as a few questions regarding these external resources.
 
 Adam: 5 hours
 
