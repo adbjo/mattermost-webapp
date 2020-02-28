@@ -75,6 +75,8 @@ Considering we didn't actually refactor their code, since we chose anotehr proje
 
 The fix can be copied or linked to (git diff).
 
+All changes made can be found in [pull request #4963](https://github.com/mattermost/mattermost-webapp/pull/4963)
+
 Optional (point 4): the patch is clean.
 
 Optional (point 5): considered for acceptance (passes all automated checks).
@@ -188,7 +190,7 @@ you took care of and where you spent your time, if that time exceeds
 
 What are your main take-aways from this project? What did you learn?
 
-Our main take-away from this project would be how to work with open source projects in general. We got to learn things like how to find good issues, how to adapt your coding style to an already existing code base and how to get in contact with existing developers of the project to ask for feedback and help. Some of us also had not worked that much in TypeScript before, so converting code the code taught us about how the language itself works and also conventions in it.
+Our main take-away from this project would be how to work with open source projects in general. We got to learn things like how to find good issues, how to adapt your coding style to an already existing code base and how to get in contact with existing developers of the project to ask for feedback and help. Some of us also had not worked that much in TypeScript before, so converting code the code taught us about how the language itself works and also conventions in it. In context to best software engineering practices we did use issues to track our problems, branches, had almost daily meetings to see where we were all at, made sure to keep styling conventions, kept in touch with the developers of the software and used unit tests to make sure that the code itself in fact still worked.
 
 Optional (point 6): How would you put your work in context with best software engineering practice?
 
