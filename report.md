@@ -203,6 +203,9 @@ Kasper: 1.5 hours
 
 Robin: 2 hours
 
+Johan: 4h
+See point 7.
+
 6. writing documentation;
 
 Gabriel: 4 hours
@@ -231,7 +234,7 @@ Kasper: 6 hours
 
 Mainly worked on manage_auto_responder file and manage_auto_responder.test file. Had to change proptypes to Props in manage_auto_responder file and move them outside of the function and update some parameters. There was some issue with some of the props and I had to get in touch with the developers whom gave me premission to add the props in autosize_textarea. Gabriel pair-programmed with me on manage_auto_responder.
 
-Johan: 11 hours
+Johan: 7 hours
 
 Had `user_settings_notifications.tsx` as main file to migrate. This was the primary file in the folder and therefor had quite a lot of connections, internally to other components in the folder as well as externally through props from parent components. To get all the prop and state types correct I had to do a lot of research into neighboring components as well as into the redux files. This led me to the `UserProfile` interface and the `utils/constants.jsx` files. The latter had to be converted into typescript to gain type benefits to `user_settings_notifications.tsx`. This further led down to finding a few bugs as well as a few questions regarding these external resources.
 
