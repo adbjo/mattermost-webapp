@@ -25,7 +25,7 @@ TODO: add more description
 
 The first project we chose was Strongbox https://github.com/strongbox/strongbox, Strongbox is an OSS artifact repository manager with clear instructions (https://strongbox.github.io/developer-guide/building-the-code.html) on how to build the project. The project uses maven and all one had to do to build the project was to clone the repository and run ´´´mvn clean install´´´ in the local clone. The project has an active community and we were in touch with the developers whom were ready to assist us. In the end the issue proved a bit too complicated and we decided to change project.
 
-The project we ended up working on was Mattermost, an open source and self hosted alternative to the messaging platform Slack. Mattermost has well documented information on how to run their project (https://developers.mattermost.com/contribute/webapp/developer-setup/). There were no trouble in building the project. Just like with Strongbox there was quite an active community, in the Mattermost application itself infact, where you could ask questions and get help in a moments notice. This was used in a couple of instances where we got stuck because of mostly files outside of our issue scope giving us problems.
+The project we ended up working on was Mattermost, an open source and self hosted alternative to the messaging platform Slack. Mattermost has well documented information on how to run their project (https://developers.mattermost.com/contribute/webapp/developer-setup/). There were no trouble in building the project.
 
 ## UML class diagram and its description
 
@@ -47,35 +47,14 @@ Optional (point 3): trace tests to requirements.
 
 ### Existing test cases relating to refactored code
 
-All test cases related to the code that was refactored have been further documented in their respective files. They can be found here;
-
-[desktop_notification_settings.test.jsx](https://github.com/adbjo/mattermost-webapp/blob/Documentation_Report/components/user_settings/notifications/desktop_notification_settings.test.jsx)
-
-[manage_auto_responder.test.jsx](https://github.com/adbjo/mattermost-webapp/blob/Documentation_Report/components/user_settings/notifications/manage_auto_responder.test.jsx)
-
-[user_settings_notifications.test.js](https://github.com/adbjo/mattermost-webapp/blob/Documentation_Report/components/user_settings/notifications/user_settings_notifications.test.js)
-
 ### Test results
 
 Overall results with link to a copy or excerpt of the logs (before/after
 refactoring).
 
-#### Strongbox
-[Test results before refactoring](https://github.com/adbjo/mattermost-webapp/blob/Documentation_Report/doc_logs/testlog_strongbox)
-
-Considering we didn't actually refactor their code, since we chose anotehr project, there are no tests results after the refactor because it never happened.
-
-#### Mattermost
-
-[Test results before refactoring](https://github.com/adbjo/mattermost-webapp/blob/Documentation_Report/doc_logs/testlog_before_mattermost)
-
-[Test results after refactoring](https://github.com/adbjo/mattermost-webapp/blob/Documentation_Report/doc_logs/testlog_after_mattermost)
-
 ### Patch/fix
 
 The fix can be copied or linked to (git diff).
-
-All changes made can be found in [pull request #4963](https://github.com/mattermost/mattermost-webapp/pull/4963)
 
 Optional (point 4): the patch is clean.
 
@@ -124,11 +103,7 @@ Discussed report writing with Kasper and typescript conventions in repository wi
 
 Kasper: 4.5 hours
 
-Looking for new projects with Johan, discussed report writing with Gabriel and to find the actual issue to work on with Robin and Adam. 
-
-Robin: 3 hours
-
-Discussed potential issues with Kasper and Adam and the typescript conventions in the repository with Adam and Gabriel.
+Looking for new projects with Johan, discussed report writing with Gabriel and to find the actual issue to work on with Robin. 
 
 3. reading documentation;
 
@@ -139,10 +114,6 @@ First off I looked through the mattermost [documentation](https://developers.mat
 Kasper: 3 hours
 
 I went through the same process as Gabriel.
-
-Robin: 3.5 hours
-
-I basically did the same stuff as Gabriel, a lot of time spent looking through old issues and PRs to understand their conventions.
 
 4. configuration and setup;
 
@@ -161,20 +132,14 @@ Kasper: 1.5 hours
 
 It went quite smoothly for the most part, but we had some issues with getting the Docker environment to work properly. After reinstalling it and its dependencies it magically started working.
 
-Robin: 2.5 hours
-
-My computer is old as @#%$ and I had some problems with node/npm.
-
 5. analyzing code/output;
 
 Gabriel: 1.5 hours
 
 Kasper: 1.5 hours
 
-Robin: 2 hours
-
 Analyzing relevant tests and code in order to add documentation for them and to figure out types to use for variables that require them.
- 
+
 6. writing documentation;
 
 Gabriel: 4 hours
@@ -182,10 +147,6 @@ Gabriel: 4 hours
 Kasper: 2 hours
 
 Writing code documentation and report
-
-Robin: 3 hours
-
-Code documentation for the tests and report writing, also helped with the UML class diagram.
 
 7. writing code;
 
@@ -195,11 +156,11 @@ Not a lot of code had to be changed in my assigned file, just took a little bit 
 
 Kasper: 6 hours
 
-Mainly worked on manage_auto_responder file and manage_auto_responder.test file. Had to change proptypes to Props in manage_auto_responder file and move them outside of the function and update some parameters. There was some issue with some of the props and I had to get in touch with the developers whom gave me premission to add the props in autosize_textarea. Gabriel pair-programmed with me on manage_auto_responder.
+Mainly worked on manage_auto_responder file and manage_auto_responder.test file. Had to change proptypes to Props in manage_auto_responder file and move them outside of the function and update some parameters. There was some issue with some of the props and I had to get in touch with the developers whom gave me premission to add the props in autosize_textarea. Gabrial pair-programmed with me on manage_auto_responder.
 
-Robin: 4.5 hours
+Johan: 11 hours
 
-My assigned work was on index and desktop_notification_settings, but as Gabriel it took some time to understand typescript and the changes themselves were not that large. I did some pair-programming with Adam during the remaining time.
+Had `user_settings_notifications.tsx` as main file to migrate. This was the primary file in the folder and therefor had quite a lot of connections, internally to other components in the folder as well as externally through props from parent components. To get all the prop and state types correct I had to do a lot of research into neighboring components as well as into the redux files. This led me to the `UserProfile` interface and the `utils/constants.jsx` files. The latter had to be converted into typescript to gain type benefits to `user_settings_notifications.tsx`. This further led down to finding a few bugs as well as a few questions regarding these external resources.
 
 8. running code?
 
@@ -211,8 +172,6 @@ you took care of and where you spent your time, if that time exceeds
 ## Overall experience
 
 What are your main take-aways from this project? What did you learn?
-
-Our main take-away from this project would be how to work with open source projects in general. We got to learn things like how to find good issues, how to adapt your coding style to an already existing code base and how to get in contact with existing developers of the project to ask for feedback and help. Some of us also had not worked that much in TypeScript before, so converting code the code taught us about how the language itself works and also conventions in it. In context to best software engineering practices we did use issues to track our problems, branches, had almost daily meetings to see where we were all at, made sure to keep styling conventions, kept in touch with the developers of the software and used unit tests to make sure that the code itself in fact still worked.
 
 Optional (point 6): How would you put your work in context with best software engineering practice?
 
