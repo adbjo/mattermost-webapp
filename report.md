@@ -167,7 +167,7 @@ Not a lot of code had to be changed in my assigned file, just took a little bit 
 
 Kasper: 6 hours
 
-Mainly worked on manage_auto_responder file and manage_auto_responder.test file. Had to change proptypes to Props in manage_auto_responder file and move them outside of the function and update some parameters. There was some issue with some of the props and I had to get in touch with the developers whom gave me premission to add the props in autosize_textarea. Gabrial pair-programmed with me on manage_auto_responder.
+Mainly worked on manage_auto_responder file and manage_auto_responder.test file. Had to change proptypes to Props in manage_auto_responder file and move them outside of the function and update some parameters. There was some issue with some of the props and I had to get in touch with the developers whom gave me premission to add the props in autosize_textarea. Gabriel pair-programmed with me on manage_auto_responder.
 
 8. running code?
 
@@ -179,6 +179,8 @@ you took care of and where you spent your time, if that time exceeds
 ## Overall experience
 
 What are your main take-aways from this project? What did you learn?
+
+Our main take-away from this project would be how to work with open source projects in general. We got to learn things like how to find good issues, how to adapt your coding style to an already existing code base and how to get in contact with existing developers of the project to ask for feedback and help. Some of us also had not worked that much in TypeScript before, so converting code the code taught us about how the language itself works and also conventions in it.
 
 Optional (point 6): How would you put your work in context with best software engineering practice?
 
