@@ -1,536 +1,536 @@
-> mattermost-webapp@0.0.1 test /Users/adam/Documents/se/mattermost-webapp
+> mattermost-webapp@0.0.1 test /Users/kasperliu/Desktop/mattermost-webapp
 > cross-env NODE_ICU_DATA=node_modules/full-icu jest --forceExit --detectOpenHandles
 
- PASS  components/needs_team/needs_team.test.jsx (5.436s)
-  ● Console
-
-    console.error node_modules/prop-types/factoryWithTypeCheckers.js:23
-      Warning: Invalid argument supplied to oneOf, expected an array.
-
- PASS  utils/admin_console_index.test.jsx
- PASS  components/admin_console/admin_sidebar/admin_sidebar.test.jsx
- PASS  components/search_results_item/search_results_item.test.jsx
- PASS  components/user_settings/display/user_settings_display.test.jsx
- PASS  components/add_groups_to_channel_modal/add_groups_to_channel_modal.test.jsx
- PASS  actions/command.test.js
- PASS  components/access_history_modal/access_history_modal.test.tsx
- PASS  components/create_comment/create_comment.test.jsx
- PASS  components/user_settings/advanced/user_settings_advanced.test.jsx
- PASS  components/admin_console/group_settings/groups_list/groups_list.test.jsx
+ PASS  components/create_comment/create_comment.test.jsx (20.661s)
  PASS  components/create_post/create_post.test.jsx
- PASS  components/admin_console/system_user_detail/system_user_detail.test.jsx
- PASS  components/admin_console/admin_definition.test.jsx
- PASS  components/admin_console/system_users/system_users.test.jsx
- PASS  components/create_team/create_team.test.jsx
- PASS  components/sidebar/sidebar_channel_button_or_link/sidebar_channel_button_or_link.test.jsx
- PASS  actions/views/rhs.test.js
- PASS  actions/views/create_comment.test.jsx
- PASS  components/root/root.test.jsx
-  ● Console
-
-    console.error node_modules/prop-types/factoryWithTypeCheckers.js:23
-      Warning: Invalid argument supplied to oneOf, expected an array.
-
- PASS  components/sidebar/sidebar.test.jsx
- PASS  components/edit_post_modal/edit_post_modal.test.jsx
- PASS  components/interactive_dialog/interactive_dialog.test.jsx
  PASS  components/suggestion/at_mention_provider/at_mention_provider.test.jsx
- PASS  components/integrations/confirm_integration/confirm_integration.test.jsx
- PASS  components/integrations/bots/add_bot/add_bot.test.jsx
- PASS  components/team_general_tab/team_general_tab.test.jsx
- PASS  components/widgets/badges/guest_badge.test.tsx
- PASS  components/rhs_thread/rhs_thread.test.jsx
- PASS  components/post_view/post_list_virtualized/post_list_virtualized.test.jsx
- PASS  components/markdown/markdown.test.jsx
- PASS  components/post_view/post_list/post_list.test.jsx
- PASS  components/view_image/view_image.test.jsx
- PASS  components/post_view/post_view.test.js
- PASS  components/admin_console/permission_schemes_settings/guest_permissions_tree/guest_permissions_tree.test.jsx
- PASS  components/admin_console/admin_console.test.tsx
  PASS  utils/post_utils.test.jsx
- PASS  components/new_channel_modal/new_channel_modal.test.jsx
- PASS  components/channel_layout/channel_controller.test.jsx
-  ● Console
-
-    console.error node_modules/prop-types/factoryWithTypeCheckers.js:23
-      Warning: Invalid argument supplied to oneOf, expected an array.
-
- PASS  components/single_image_view/single_image_view.test.jsx
- PASS  components/main_menu/main_menu.test.jsx
- PASS  components/post_view/post_body_additional_content/post_body_additional_content.test.jsx
- PASS  components/plugin_marketplace/marketplace_item/marketplace_item.test.js
- PASS  components/user_settings/notifications/email_notification_setting/email_notification_setting.test.jsx
- PASS  components/user_settings/security/user_settings_security.test.js
- PASS  components/setting_item_max.test.jsx
+ PASS  actions/websocket_actions.test.jsx
+ PASS  utils/text_formatting_links.test.jsx
+ PASS  actions/views/rhs.test.js
+ PASS  utils/utils.test.jsx
+ PASS  actions/global_actions.test.js
+ PASS  components/edit_post_modal/edit_post_modal.test.jsx
+ PASS  components/admin_console/group_settings/groups_list/groups_list.test.jsx
+ PASS  components/sidebar/sidebar.test.jsx (8.98s)
+ PASS  actions/views/channel.test.js
+ PASS  actions/invite_actions.test.js
  PASS  components/admin_console/plugin_management/plugin_management.test.jsx
- PASS  selectors/admin_console.test.jsx
+ PASS  components/post_view/post_list_virtualized/post_list_virtualized.test.jsx (5.587s)
+ PASS  actions/views/create_comment.test.jsx
+ PASS  components/sidebar/sidebar_channel/sidebar_channel.test.jsx
+ PASS  actions/post_actions.test.js
+ PASS  components/plugin_marketplace/marketplace_item/marketplace_item.test.js
+ PASS  components/toast_wrapper/toast_wrapper.test.jsx
+ PASS  components/file_upload/file_upload.test.jsx
+ PASS  components/channel_notifications_modal/channel_notifications_modal.test.jsx
+ PASS  actions/post_utils.test.js
+ PASS  components/view_image/view_image.test.jsx
+ PASS  components/admin_console/schema_admin_settings.test.jsx
+ PASS  components/admin_console/admin_sidebar/admin_sidebar.test.jsx (11.866s)
+ PASS  components/more_channels/more_channels.test.jsx
+ PASS  components/post_view/post_list/post_list.test.jsx
+ PASS  components/more_direct_channels/more_direct_channels.test.jsx
+ PASS  components/user_settings/display/user_settings_display.test.jsx
+ PASS  reducers/views/rhs.test.js
+ PASS  utils/markdown/link_only_renderer.test.tsx
+ PASS  utils/text_formatting.test.jsx
+ PASS  components/post_view/post_body_additional_content/post_body_additional_content.test.jsx
+ PASS  actions/user_actions.test.js
+ PASS  actions/hooks.test.js
+ PASS  components/new_channel_flow/new_channel_flow.test.jsx
+ PASS  utils/markdown/remove_markdown.test.tsx
+ PASS  components/markdown_image.test.jsx
+ PASS  components/channel_layout/channel_identifier_router/actions.test.js
+ PASS  components/integrations/abstract_command.test.jsx
+ PASS  actions/channel_actions.test.js
+ PASS  components/suggestion/search_channel_with_permissions_provider.test.jsx
+ PASS  components/admin_console/permission_schemes_settings/permission_team_scheme_settings/permission_team_scheme_settings.test.jsx
+ PASS  components/admin_console/system_users/system_users_dropdown/system_users_dropdown.test.tsx
+ PASS  components/add_user_to_channel_modal/add_user_to_channel_modal.test.jsx
+ PASS  components/admin_console/permission_schemes_settings/permission_group.test.jsx
+ PASS  components/admin_console/permission_schemes_settings/permission_system_scheme_settings/permission_system_scheme_settings.test.jsx
+ PASS  utils/policy_roles_adapter.test.jsx
  PASS  components/permalink_view/permalink_view.test.jsx
   ● Console
 
     console.error node_modules/prop-types/factoryWithTypeCheckers.js:23
       Warning: Invalid argument supplied to oneOf, expected an array.
 
- PASS  utils/utils.test.jsx
- PASS  components/user_settings/general/user_settings_general.test.js
+ PASS  components/widgets/menu/menu.test.tsx
  PASS  components/user_settings/sidebar/user_settings_sidebar.test.jsx
- PASS  actions/views/channel.test.js
- PASS  components/widgets/menu/menu_modals/submenu_modal/submenu_modal.test.tsx
- PASS  components/channel_layout/center_channel/center_channel.test.tsx
-  ● Console
-
-    console.error node_modules/prop-types/factoryWithTypeCheckers.js:23
-      Warning: Invalid argument supplied to oneOf, expected an array.
-
- PASS  components/file_upload/file_upload.test.jsx
- PASS  components/post_view/message_attachments/message_attachment/message_attachment.test.jsx
- PASS  components/channel_notifications_modal/channel_notifications_modal.test.jsx
- PASS  components/admin_console/reset_password_modal/reset_password_modal.test.tsx
- PASS  components/integrations/abstract_command.test.jsx
- PASS  components/channel_layout/channel_identifier_router/channel_identifier_router.test.jsx
-  ● Console
-
-    console.error node_modules/prop-types/factoryWithTypeCheckers.js:23
-      Warning: Invalid argument supplied to oneOf, expected an array.
-
- PASS  components/rhs_root_post/rhs_root_post.test.jsx
- PASS  actions/websocket_actions.test.jsx
- PASS  components/more_direct_channels/more_direct_channels.test.jsx
- PASS  components/create_team/components/team_url/team_url.test.jsx
- PASS  components/channel_view/channel_view.test.jsx
-  ● Console
-
-    console.error node_modules/prop-types/factoryWithTypeCheckers.js:23
-      Warning: Invalid argument supplied to oneOf, expected an array.
-
- PASS  components/sidebar/sidebar_channel/sidebar_channel.test.jsx
- PASS  components/admin_console/permission_schemes_settings/permission_system_scheme_settings/permission_system_scheme_settings.test.jsx
- PASS  components/edit_channel_header_modal/edit_channel_header_modal.test.jsx
- PASS  components/popover_list_members/popover_list_members.test.jsx
- PASS  utils/markdown/remove_markdown.test.tsx
- PASS  components/add_user_to_channel_modal/add_user_to_channel_modal.test.jsx
- PASS  components/more_channels/more_channels.test.jsx
- PASS  components/admin_console/custom_url_schemes_setting.test.jsx
- PASS  components/markdown_image.test.jsx
- PASS  components/logged_in/logged_in.test.jsx
+ PASS  components/user_settings/notifications/email_notification_setting/email_notification_setting.test.jsx
+ PASS  utils/text_formatting_hashtags.test.jsx
+ PASS  components/edit_channel_purpose_modal/edit_channel_purpose_modal.test.jsx
+ PASS  components/post_view/post_attachment_opengraph/post_attachment_opengraph.test.js
+ PASS  components/suggestion/emoticon_provider.test.jsx
+ PASS  components/permissions_gates/channel_permission_gate/channel_permission_gate.test.jsx
+ PASS  components/integrations/installed_outgoing_webhooks/installed_outgoing_webhooks.test.jsx
+ PASS  components/new_channel_modal/new_channel_modal.test.jsx
  PASS  components/integrations/abstract_oauth_app.test.jsx
+ PASS  utils/text_formatting_search_highlighting.test.jsx
+ PASS  components/team_general_tab/team_general_tab.test.jsx
+ PASS  reducers/views/marketplace.test.js
+ PASS  utils/text_formatting_at_mentions.test.jsx
+ PASS  components/post_view/message_attachments/message_attachment/message_attachment.test.jsx
+ PASS  components/add_groups_to_channel_modal/add_groups_to_channel_modal.test.jsx
+ PASS  components/add_groups_to_team_modal/add_groups_to_team_modal.test.jsx
+ PASS  components/admin_console/request_button/request_button.test.jsx
+ PASS  components/admin_console/admin_definition.test.jsx
+ PASS  stores/local_storage_store.test.jsx
+ PASS  components/admin_console/system_users/list/selectors.test.jsx
+ PASS  components/suggestion/suggestion_box.test.jsx
+ PASS  components/admin_console/message_export_settings.test.jsx
+ PASS  actions/storage.test.js
+ PASS  components/integrations/installed_outgoing_webhook.test.jsx
+ PASS  components/integrations/installed_incoming_webhook.test.jsx
+ PASS  components/change_url_modal/change_url_modal.test.jsx
+ PASS  actions/command.test.js
+ PASS  components/search_results_item/search_results_item.test.jsx
+ PASS  components/post_view/combined_system_message/combined_system_message.test.jsx
+ PASS  reducers/storage.test.js
+ PASS  actions/status_actions.test.js
+ PASS  components/edit_channel_header_modal/edit_channel_header_modal.test.jsx
+ PASS  components/integrations/bots/bot.test.jsx
+ PASS  components/admin_console/custom_plugin_settings/custom_plugin_settings.test.jsx
+ PASS  components/at_mention/at_mention.test.jsx
+ PASS  components/admin_console/group_settings/group_details/group_teams_and_channels.test.jsx
+ PASS  components/admin_console/group_settings/group_row.test.jsx
+ PASS  components/admin_console/system_users/system_users.test.jsx
+ PASS  components/admin_console/group_settings/group_details/group_details.test.jsx
+ PASS  components/permissions_gates/any_team_permission_gate/any_team_permission_gate.test.jsx
+ PASS  components/interactive_dialog/dialog_element/dialog_element.test.jsx
+ PASS  components/main_menu/main_menu.test.jsx
+ PASS  components/setting_picture.test.jsx
+ PASS  components/post_view/commented_on/commented_on.test.jsx
+ PASS  components/user_settings/security/user_settings_security.test.js
+ PASS  components/rename_channel_modal/rename_channel_modal.test.jsx
+ PASS  components/plugin_marketplace/marketplace_modal.test.js
+ PASS  components/root/root.test.jsx (6.967s)
+  ● Console
+
+    console.error node_modules/prop-types/factoryWithTypeCheckers.js:23
+      Warning: Invalid argument supplied to oneOf, expected an array.
+
+ PASS  components/post_view/reaction/reaction.test.jsx
+ PASS  components/integrations/edit_oauth_app/edit_oauth_app.test.jsx
+ PASS  components/channel_members_dropdown/channel_members_dropdown.test.jsx
+ PASS  actions/integration_actions.test.js
+ PASS  utils/server_version.test.tsx
+ PASS  components/post_view/post_info/post_info.test.jsx
+ PASS  components/size_aware_image.test.jsx
+(node:62406) UnhandledPromiseRejectionWarning: TypeError: Cannot destructure property 'error' of 'undefined' as it is undefined.
+(node:62406) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 7)
+(node:62406) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:62406) UnhandledPromiseRejectionWarning: TypeError: Cannot destructure property 'error' of 'undefined' as it is undefined.
+(node:62406) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 8)
+ PASS  components/integrations/installed_oauth_app/installed_oauth_app.test.jsx
+ PASS  components/needs_team/needs_team.test.jsx
+  ● Console
+
+    console.error node_modules/prop-types/factoryWithTypeCheckers.js:23
+      Warning: Invalid argument supplied to oneOf, expected an array.
+
+ PASS  components/create_team/components/team_url/team_url.test.jsx
+ PASS  components/permissions_gates/team_permission_gate/team_permission_gate.test.tsx
+ PASS  components/delete_modal_trigger.test.jsx
+ PASS  utils/emoticons.test.tsx
+ PASS  components/admin_console/group_settings/group_details/group_users.test.jsx
+ PASS  components/sidebar/sidebar_channel_button_or_link/sidebar_channel_button_or_link.test.jsx
+ PASS  components/user_settings/general/user_settings_general.test.js
+ PASS  components/integrations/edit_outgoing_webhook/edit_outgoing_webhook.test.jsx
+ PASS  components/external_image/external_image.test.jsx
+ PASS  components/integrations/abstract_incoming_hook.test.jsx
  PASS  components/channel_header/channel_header.test.jsx
   ● Console
 
     console.error node_modules/prop-types/factoryWithTypeCheckers.js:23
       Warning: Invalid argument supplied to oneOf, expected an array.
 
- PASS  components/post_view/post_info/post_info.test.jsx
- PASS  components/analytics/doughnut_chart.test.tsx
- PASS  components/admin_console/group_settings/group_details/group_details.test.jsx
- PASS  components/admin_console/permission_schemes_settings/permission_group.test.jsx
- PASS  components/widgets/team_icon/team_icon.test.tsx
- PASS  components/post_view/post_list_row/post_list_row.test.jsx
- PASS  components/admin_console/permission_schemes_settings/permission_team_scheme_settings/permission_team_scheme_settings.test.jsx
- PASS  components/channel_header_mobile/channel_header_mobile.test.js
- PASS  actions/post_actions.test.js
- PASS  components/integrations/abstract_incoming_hook.test.jsx
- PASS  components/interactive_dialog/dialog_element/dialog_element.test.jsx
- PASS  utils/markdown/link_only_renderer.test.tsx
- PASS  utils/text_formatting.test.jsx
- PASS  components/multiselect/multiselect.test.tsx
- PASS  components/channel_info_modal/channel_info_modal.test.jsx
- PASS  components/new_channel_flow/new_channel_flow.test.jsx
- PASS  components/emoji_picker/emoji_picker.test.jsx
- PASS  components/rhs_comment/rhs_comment.test.jsx
- PASS  components/admin_console/schema_admin_settings.test.jsx
- PASS  components/post_view/index.test.js
-(node:30555) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'error' of undefined
-(node:30555) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 7)
-(node:30555) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-(node:30555) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'error' of undefined
-(node:30555) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 8)
-(node:30555) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'error' of undefined
-(node:30555) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 9)
-(node:30555) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'error' of undefined
-(node:30555) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 10)
-(node:30555) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'error' of undefined
-(node:30555) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 11)
-(node:30555) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'error' of undefined
-(node:30555) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 12)
-(node:30555) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'error' of undefined
-(node:30555) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 13)
-(node:30555) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'error' of undefined
-(node:30555) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 14)
-(node:30555) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'error' of undefined
-(node:30555) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 15)
- PASS  components/select_team/select_team.test.jsx
- PASS  components/post_view/post_reaction/post_reaction.test.jsx
- PASS  components/integrations/installed_outgoing_webhook.test.jsx
- PASS  components/login/login_controller/login_controller.test.jsx
- PASS  components/channel_header_mobile/channel_info_button/channel_info_button.test.js
- PASS  components/admin_console/group_settings/group_details/group_teams_and_channels_row.test.jsx
- PASS  components/post_view/post/index.test.js
- PASS  components/at_mention/at_mention.test.jsx
- PASS  components/admin_console/message_export_settings.test.jsx
-(node:30555) UnhandledPromiseRejectionWarning: TypeError: Cannot destructure property `error` of 'undefined' or 'null'.
-(node:30555) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 20)
-(node:30555) UnhandledPromiseRejectionWarning: TypeError: Cannot destructure property `error` of 'undefined' or 'null'.
-(node:30555) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 21)
- PASS  components/integrations/installed_oauth_app/installed_oauth_app.test.jsx
- PASS  components/admin_console/group_settings/group_details/group_teams_and_channels.test.jsx
- PASS  components/channel_members_modal/channel_members_modal.test.tsx
- PASS  components/integrations/bots/bots.test.jsx
- PASS  components/dot_menu/dot_menu.test.jsx
- PASS  components/channel_invite_modal/channel_invite_modal.test.jsx
- PASS  components/post_view/post/post.test.js
- PASS  components/admin_console/system_users/system_users_dropdown/system_users_dropdown.test.tsx
- PASS  actions/channel_actions.test.js
- PASS  components/terms_of_service/terms_of_service.test.jsx
- PASS  components/plugin_marketplace/marketplace_modal.test.js
- PASS  components/admin_console/system_users/list/system_users_list.test.jsx
- PASS  plugins/test/main_menu_action.test.jsx
- PASS  components/size_aware_image.test.jsx
- PASS  components/channel_members_dropdown/channel_members_dropdown.test.jsx
- PASS  components/channel_header_dropdown/channel_header_dropdown.test.jsx
- PASS  components/post_view/combined_system_message/combined_system_message.test.jsx
- PASS  components/integrations/edit_command/edit_command.test.jsx
- PASS  utils/message_html_to_component.test.jsx
- PASS  actions/global_actions.test.js
- PASS  components/admin_console/system_user_detail/team_list/abstract_list.test.tsx
- PASS  components/post_view/post_message_view/post_message_view.test.jsx
- PASS  components/rhs_card/rhs_card.test.jsx
- PASS  components/suggestion/suggestion_box.test.jsx
- PASS  components/toast/toast.test.jsx
- PASS  components/post_view/reaction/reaction.test.jsx
- PASS  components/setting_picture.test.jsx
- PASS  components/admin_console/team_channel_settings/team/details/team_details.test.jsx
- PASS  components/integrations/bots/bot.test.jsx
- PASS  components/channel_header_dropdown/menu_items/toggle_mute_channel/toggle_mute_channel.test.js
- PASS  utils/text_formatting_links.test.jsx
- PASS  components/toast_wrapper/toast_wrapper.test.jsx
- PASS  components/rename_channel_modal/rename_channel_modal.test.jsx
- PASS  components/widgets/menu/menu_wrapper.test.tsx
- PASS  components/add_groups_to_team_modal/add_groups_to_team_modal.test.jsx
- PASS  components/integrations/installed_oauth_apps/installed_oauth_apps.test.jsx
- PASS  utils/admin_console_plugin_index.test.js
- PASS  components/file_attachment_list/file_attachment_list.test.jsx
- PASS  components/admin_console/custom_plugin_settings/custom_plugin_settings.test.jsx
- PASS  components/signup/signup_controller/signup_controller.test.jsx
- PASS  components/widgets/menu/menu_items/submenu_item.test.tsx
- PASS  components/invitation_modal/invitation_modal.test.jsx
  PASS  components/emoji/add_emoji/add_emoji.test.js
- PASS  plugins/test/post_type.test.jsx
- PASS  components/edit_channel_purpose_modal/edit_channel_purpose_modal.test.jsx
- PASS  components/team_members_dropdown/team_members_dropdown.test.jsx
- PASS  components/post_markdown/post_markdown.test.jsx
- PASS  components/search_results/search_results.test.jsx
- PASS  components/textbox.test.jsx
- PASS  components/integrations/edit_outgoing_webhook/edit_outgoing_webhook.test.jsx
- PASS  components/file_attachment/file_attachment.test.jsx
- PASS  components/admin_console/team_channel_settings/channel/details/channel_details.test.tsx
- PASS  components/integrations/installed_incoming_webhook.test.jsx
- PASS  components/dot_menu/dot_menu_empty.test.jsx
+ PASS  components/dot_menu/dot_menu.test.jsx
+ PASS  plugins/mobile_channel_header_plug/mobile_channel_header_plug.test.jsx
+ PASS  components/interactive_dialog/interactive_dialog.test.jsx
+ PASS  components/about_build_modal/about_build_modal.test.jsx
  PASS  components/user_settings/security/mfa_section/mfa_section.test.jsx
- PASS  actions/invite_actions.test.js
- PASS  components/profile_popover/profile_popover.test.jsx
- PASS  components/do_verify_email/do_verify_email.test.jsx
- PASS  components/announcement_bar/text_dismissable_bar.test.jsx
- PASS  components/integrations/installed_outgoing_webhooks/installed_outgoing_webhooks.test.jsx
- PASS  components/team_members_modal/team_members_modal.test.tsx
- PASS  components/admin_console/request_button/request_button.test.jsx
- PASS  components/integrations/edit_oauth_app/edit_oauth_app.test.jsx
- PASS  components/search_bar/search_bar.test.jsx
- PASS  components/admin_console/elasticsearch_settings.test.jsx
- PASS  components/widgets/menu/menu.test.tsx
- PASS  components/admin_console/system_user_detail/team_list/team_list.test.tsx
- PASS  components/channel_selector_modal/channel_selector_modal.test.jsx
- PASS  components/tutorial/tutorial_intro_screens/tutorial_intro_screen.test.jsx
- PASS  components/admin_console/manage_teams_modal/manage_teams_modal.test.jsx
- PASS  components/admin_console/permission_schemes_settings/permissions_tree/permissions_tree.test.jsx
- PASS  components/channel_header_dropdown/menu_items/toggle_favorite_channel/toggle_favorite_channel.test.js
- PASS  components/change_url_modal/change_url_modal.test.jsx
- PASS  components/integrations/installed_command.test.jsx
- PASS  components/admin_console/admin_user_card/admin_user_card.test.jsx
- PASS  components/post_view/combined_system_message/last_users.test.jsx
- PASS  components/file_preview/file_progress_preview.test.jsx
- PASS  components/user_settings/notifications/manage_auto_responder.test.jsx
- PASS  components/delete_modal_trigger.test.jsx
- PASS  components/user_settings/notifications/user_settings_notifications.test.js
- PASS  components/post_view/message_attachments/action_button.test.jsx
- PASS  utils/text_formatting_search_highlighting.test.jsx
- PASS  actions/admin_actions.test.js
- PASS  components/emoji/delete_emoji_modal.test.jsx
- PASS  utils/text_formatting_channel_links.test.jsx
- PASS  actions/post_utils.test.js
- PASS  components/file_preview/file_preview.test.jsx
+ PASS  components/quick_switch_modal/quick_switch_modal.test.jsx
+ PASS  components/admin_console/reset_password_modal/reset_password_modal.test.tsx
+ PASS  components/leave_private_channel_modal/leave_private_channel_modal.test.tsx
+ PASS  utils/text_formatting_email.test.jsx
+ PASS  components/integrations/edit_incoming_webhook/edit_incoming_webhook.test.jsx
+ PASS  components/rhs_root_post/rhs_root_post.test.jsx
+ PASS  components/rhs_comment/rhs_comment.test.jsx
+ PASS  components/admin_console/custom_url_schemes_setting.test.jsx
+ PASS  components/user_settings/notifications/desktop_notification_settings.test.tsx
+ PASS  components/popover_list_members/popover_list_members.test.jsx
+ PASS  components/widgets/modals/full_screen_modal.test.tsx
+ PASS  components/emoji_picker/emoji_picker.test.jsx
+ PASS  components/post_view/post/index.test.js
+ PASS  plugins/pluggable/pluggable.test.jsx
+ PASS  components/setting_item_max.test.jsx
+ PASS  components/channel_members_modal/channel_members_modal.test.tsx
+ PASS  components/integrations/edit_command/edit_command.test.jsx
+ PASS  components/delete_post_modal/delete_post_modal.test.jsx
+ PASS  components/local_date_time/local_date_time.test.tsx
+ PASS  components/system_notice/system_notice.test.jsx
+ PASS  components/post_markdown/post_markdown.test.jsx
+ PASS  components/channel_notifications_modal/components/notification_section.test.jsx
+ PASS  components/permalink_redirector/permalink_redirector.test.jsx
+ PASS  components/channel_invite_modal/channel_invite_modal.test.jsx
+ PASS  components/widgets/menu/menu_items/submenu_item.test.tsx
+ PASS  utils/emoji.test.jsx
+ PASS  components/admin_console/system_user_detail/team_list/abstract_list.test.tsx
+ PASS  components/overlay_trigger.test.tsx
+(node:62406) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'error' of undefined
+(node:62406) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 9)
+(node:62406) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'error' of undefined
+(node:62406) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 10)
+(node:62406) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'error' of undefined
+(node:62406) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 11)
+(node:62406) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'error' of undefined
+(node:62406) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 12)
+(node:62406) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'error' of undefined
+(node:62406) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 13)
+(node:62406) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'error' of undefined
+(node:62406) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 14)
+(node:62406) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'error' of undefined
+(node:62406) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 15)
+(node:62406) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'error' of undefined
+(node:62406) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 16)
+(node:62406) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'error' of undefined
+(node:62406) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 17)
+ PASS  components/select_team/select_team.test.jsx
+ PASS  utils/notifications.test.jsx
+ PASS  components/user_settings/advanced/user_settings_advanced.test.jsx
+ PASS  components/file_attachment/file_attachment.test.jsx
+ PASS  components/user_settings/advanced/join_leave_section/join_leave_section.test.jsx
+ PASS  components/activity_log_modal/components/activity_log.test.jsx
+ PASS  components/file_attachment_list/file_attachment_list.test.jsx
  PASS  components/reset_status_modal/reset_status_modal.test.jsx
+ PASS  components/autocomplete_selector.test.jsx
+ PASS  components/header_footer_template/header_footer_template.test.jsx
+ PASS  components/permissions_gates/system_permission_gate/system_permission_gate.test.jsx
+ PASS  utils/text_formatting_mention_highlighting.test.jsx
+ PASS  components/tutorial/tutorial_tip/tutorial_tip.test.tsx
+ PASS  components/post_view/post_add_channel_member/post_add_channel_member.test.jsx
+ PASS  actions/team_actions.test.js
+ PASS  components/signup/signup_controller/signup_controller.test.jsx
+ PASS  components/recent_date.test.tsx
+ PASS  components/admin_console/group_settings/group_details/group_teams_and_channels_row.test.jsx
+ PASS  components/integrations/installed_oauth_apps/installed_oauth_apps.test.jsx
+ PASS  components/list_modal.test.jsx
+ PASS  components/terms_of_service/terms_of_service.test.jsx
+ PASS  components/logged_in/logged_in.test.jsx
+ PASS  selectors/views/marketplace.test.js
+ PASS  utils/text_formatting_channel_links.test.jsx
+ PASS  components/post_view/post_list_row/post_list_row.test.jsx
+ PASS  components/admin_console/system_users/list/system_users_list.test.jsx
+ PASS  utils/file_utils.test.jsx
+ PASS  components/single_image_view/single_image_view.test.jsx
+ PASS  components/intl_provider/intl_provider.test.jsx
+ PASS  components/integrations/bots/bots.test.jsx
+ PASS  components/integrations/confirm_integration/confirm_integration.test.jsx
+ PASS  components/post_view/show_more/show_more.test.jsx
+ PASS  components/rhs_thread/rhs_thread.test.jsx
+ PASS  components/analytics/doughnut_chart.test.tsx
+ PASS  components/login/login_controller/login_controller.test.jsx
+ PASS  components/tutorial/tutorial_intro_screens/tutorial_intro_screen.test.jsx
+ PASS  components/channel_header/components/header_icon_wrapper.test.js
+ PASS  components/admin_console/permission_schemes_settings/guest_permissions_tree/guest_permissions_tree.test.jsx
+ PASS  components/sidebar/sidebar_channel_button_or_link/sidebar_channel_button_or_link_icon.test.jsx
+ PASS  components/admin_console/permission_schemes_settings/permissions_scheme_summary/permissions_scheme_summary.test.jsx
+ PASS  components/widgets/admin_console/admin_panel.test.tsx
+ PASS  components/admin_console/permission_schemes_settings/permissions_tree/permissions_tree.test.jsx
+ PASS  components/admin_console/custom_enable_disable_guest_accounts_setting.test.tsx
+ PASS  utils/message_html_to_component.test.jsx
+ PASS  components/integrations/installed_command.test.jsx
+ PASS  utils/admin_console_index.test.jsx
+ PASS  utils/admin_console_plugin_index.test.js
+ PASS  components/admin_console/system_user_detail/system_user_detail.test.jsx
+ PASS  components/sidebar/sidebar_channel_button_or_link/sidebar_channel_button_or_link_close_button.test.jsx
+ PASS  components/channel_header_mobile/channel_header_mobile.test.js
+ PASS  actions/views/login.test.js
+ PASS  components/textbox.test.jsx
+ PASS  selectors/i18n.test.js
+ PASS  components/error_page/error_message.test.tsx
+ PASS  components/get_public_link_modal/get_public_link_modal.test.jsx
+ PASS  utils/markdown/index.test.js
+ PASS  components/admin_console/jobs/table.test.jsx
+ PASS  components/file_preview/file_preview.test.jsx
+ PASS  components/post_view/post/post.test.js
+ PASS  components/admin_console/team_channel_settings/channel/details/channel_details.test.tsx
+ PASS  components/widgets/menu/menu_modals/submenu_modal/submenu_modal.test.tsx
+ PASS  components/invitation_modal/invitation_modal_confirm_step.test.jsx
+ PASS  components/team_members_dropdown/team_members_dropdown.test.jsx
+ PASS  components/announcement_bar/announcement_bar.test.jsx
+ PASS  components/channel_header_dropdown/menu_items/toggle_mute_channel/toggle_mute_channel.test.js
+ PASS  components/admin_console/elasticsearch_settings.test.jsx
+ PASS  components/admin_console/permission_schemes_settings/permission_schemes_settings.test.jsx
+ PASS  components/invitation_modal/index.test.jsx
+ PASS  components/delete_channel_modal/delete_channel_modal.test.jsx
+ PASS  components/error_page/error_title.test.tsx
+ PASS  components/select_team/components/select_team_item.test.jsx
+ PASS  components/post_view/post_message_view/post_message_view.test.jsx
+ PASS  components/multiselect/multiselect.test.tsx
+ PASS  components/admin_console/schema_text.test.jsx
+ PASS  components/admin_console/manage_teams_modal/manage_teams_modal.test.jsx
+ PASS  components/profile_popover/profile_popover.test.jsx
+ PASS  actions/emoji_actions.mock.test.js
+ PASS  components/channel_header_dropdown/menu_items/leave_channel/leave_channel.test.js
+ PASS  components/channel_layout/channel_controller.test.jsx
+  ● Console
+
+    console.error node_modules/prop-types/factoryWithTypeCheckers.js:23
+      Warning: Invalid argument supplied to oneOf, expected an array.
+
+ PASS  components/color_input.test.tsx
+ PASS  components/create_team/components/display_name.test.jsx
+ PASS  components/unarchive_channel_modal/unarchive_channel_modal.test.jsx
+ PASS  components/user_settings/notifications/user_settings_notifications.test.tsx
+ PASS  components/formatted_markdown_message.test.jsx
+ PASS  components/channel_header_dropdown/menu_items/close_message/close_message.test.js
+ PASS  components/activity_log_modal/activity_log_modal.test.jsx
+ PASS  reducers/views/lhs.test.js
+ PASS  components/file_attachment/file_thumbnail/file_thumbnail.test.tsx
+ PASS  components/widgets/settings/radio_setting.test.tsx
+ PASS  components/authorize/authorize.test.js
+ PASS  components/admin_console/manage_teams_modal/manage_teams_dropdown.test.jsx
+ PASS  components/invitation_modal/invitation_modal.test.jsx
+ PASS  utils/dragster.test.ts
+ PASS  components/widgets/settings/text_setting.test.tsx
+ PASS  components/common/infinite_scroll.test.js
+ PASS  actions/admin_actions.test.js
+ PASS  components/view_image/image_preview.test.jsx
+ PASS  utils/text_formatting_imgs.test.jsx
+ PASS  components/admin_console/permission_schemes_settings/permission_row.test.jsx
+ PASS  components/view_image/popover_bar/popover_bar.test.jsx
+ PASS  components/pdf_preview.test.jsx
+ PASS  components/invitation_modal/invitation_modal_confirm_step_row.test.jsx
+ PASS  components/channel_header_dropdown/menu_items/toggle_favorite_channel/toggle_favorite_channel.test.js
+ PASS  components/widgets/admin_console/admin_panel_with_link.test.tsx
+ PASS  components/widgets/admin_console/admin_panel_with_button.test.tsx
+ PASS  actions/views/mfa.test.js
+ PASS  components/file_attachment/filename_overlay.test.jsx
+ PASS  components/user_settings/display/user_settings_theme/user_settings_theme.test.jsx
+ PASS  components/widgets/menu/menu_wrapper.test.tsx
+ PASS  utils/channel_utils.test.jsx
+ PASS  components/channel_info_modal/channel_info_modal.test.jsx
  PASS  components/leave_team_modal/leave_team_modal.test.tsx
+ PASS  components/unread_channel_indicator.test.tsx
+ PASS  components/user_settings/notifications/manage_auto_responder.test.tsx
+ PASS  components/integrations/bots/add_bot/add_bot.test.jsx
+ PASS  components/profile_picture.test.tsx
+ PASS  utils/url.test.tsx
+ PASS  components/access_history_modal/access_history_modal.test.tsx
+ PASS  components/admin_console/color_setting.test.tsx
+ PASS  components/announcement_bar/text_dismissable_bar.test.jsx
+ PASS  components/search_bar/search_bar.test.jsx
+ PASS  components/get_link_modal.test.tsx
+ PASS  selectors/admin_console.test.jsx
+ PASS  components/admin_console/team_channel_settings/group/group_list.test.tsx
+ PASS  components/admin_console/team_channel_settings/channel/list/channel_list.test.tsx
+ PASS  plugins/test/main_menu_action.test.jsx
+ PASS  components/post_view/post_view.test.js
+ PASS  components/admin_console/admin_console.test.tsx
+ PASS  reducers/views/modals.test.jsx
+ PASS  components/admin_console/team_channel_settings/team/list/team_list.test.jsx
+ PASS  components/modal_controller/modal_controller.test.jsx
+ PASS  components/login/login_mfa.test.jsx
+ PASS  utils/route.test.js
+ PASS  utils/filter_users.test.js
+ PASS  components/channel_notifications_modal/components/describe.test.jsx
+ PASS  components/setting_item_min/setting_item_min.test.tsx
+ PASS  actions/views/root.test.js
+ PASS  components/toast/toast.test.jsx
+ PASS  selectors/storage.test.js
+ PASS  components/admin_console/admin_user_card/admin_user_card.test.jsx
+ PASS  components/post_deleted_modal.test.tsx
+ PASS  components/confirm_modal.test.tsx
+ PASS  components/rhs_card/rhs_card.test.jsx
+ PASS  components/channel_selector_modal/channel_selector_modal.test.jsx
+ PASS  components/post_view/index.test.js
+ PASS  components/team_selector_modal/team_selector_modal.test.jsx
+ PASS  components/removed_from_channel_modal/removed_from_channel_modal.test.tsx
+ PASS  components/more_direct_channels/group_message_option.test.jsx
+ PASS  components/quick_input.test.jsx
+ PASS  components/widgets/inputs/channels_input.test.jsx
+ PASS  components/widgets/admin_console/admin_panel_togglable.test.tsx
+ PASS  components/post_view/failed_post_options/failed_post_options.test.jsx
+ PASS  components/widgets/inputs/users_emails_input.test.jsx
+ PASS  components/post_view/combined_system_message/last_users.test.jsx
+ PASS  actions/views/modals.test.jsx
+ PASS  components/sidebar/sidebar_tutorial_tip.test.jsx
+ PASS  components/audit_table/audit_table.test.jsx
+ PASS  components/admin_console/radio_setting.test.tsx
+ PASS  utils/paste.test.tsx
+ PASS  components/post_view/post_flag_icon/post_flag_icon.test.js
+ PASS  components/localized_input/localized_input.test.tsx
+ PASS  components/message_submit_error.test.tsx
+ PASS  components/admin_console/team_channel_settings/group/group_users_row.test.tsx
  PASS  plugins/channel_header_plug/channel_header_plug.test.jsx
   ● Console
 
     console.error node_modules/prop-types/factoryWithTypeCheckers.js:23
       Warning: Invalid argument supplied to oneOf, expected an array.
 
- PASS  components/user_settings/display/user_settings_theme/user_settings_theme.test.jsx
- PASS  components/channel_header_dropdown/menu_items/close_message/close_message.test.js
- PASS  components/admin_console/team_channel_settings/channel/details/channel_groups.test.tsx
- PASS  components/channel_layout/channel_identifier_router/actions.test.js
- PASS  components/post_view/commented_on/commented_on.test.jsx
- PASS  components/admin_console/manage_teams_modal/manage_teams_dropdown.test.jsx
- PASS  components/quick_switch_modal/quick_switch_modal.test.jsx
- PASS  components/post_view/post_attachment_opengraph/post_attachment_opengraph.test.js
- PASS  components/channel_header/components/header_icon_wrapper.test.js
- PASS  components/admin_console/brand_image_setting/brand_image_setting.test.jsx
- PASS  components/admin_console/team_channel_settings/team/details/team_groups.test.jsx
- PASS  components/team_settings_modal/team_settings_modal.test.jsx
- PASS  components/channel_header_dropdown/menu_items/view_pinned_posts/view_pinned_posts.test.js
- PASS  components/intl_provider/intl_provider.test.jsx
- PASS  components/user_settings/display/manage_timezones/manage_timezones.test.js
- PASS  components/file_attachment/filename_overlay.test.jsx
- PASS  components/team_selector_modal/team_selector_modal.test.jsx
- PASS  components/admin_console/admin_navbar_dropdown/menu_item_blockable_link.test.tsx
- PASS  components/activity_log_modal/activity_log_modal.test.jsx
- PASS  components/select_team/components/select_team_item.test.jsx
- PASS  components/tutorial/tutorial_tip/tutorial_tip.test.tsx
- PASS  components/admin_console/team_channel_settings/group/group_list.test.tsx
- PASS  components/external_image/external_image.test.jsx
- PASS  components/profile_picture.test.tsx
- PASS  components/create_team/components/display_name.test.jsx
- PASS  components/admin_console/permission_schemes_settings/permission_schemes_settings.test.jsx
- PASS  components/admin_console/group_settings/group_row.test.jsx
- PASS  components/admin_console/custom_terms_of_service_settings/custom_terms_of_service_settings.test.jsx
- PASS  components/invitation_modal/index.test.jsx
- PASS  components/user_profile/user_profile.test.jsx
- PASS  components/get_public_link_modal/get_public_link_modal.test.jsx
- PASS  components/admin_console/custom_enable_disable_guest_accounts_setting.test.tsx
- PASS  components/admin_console/team_channel_settings/group/group_row.test.tsx
- PASS  components/post_view/reaction_list/reactions_list.test.jsx
- PASS  components/admin_console/permission_schemes_settings/permissions_scheme_summary/permissions_scheme_summary.test.jsx
- PASS  components/post_view/post_add_channel_member/post_add_channel_member.test.jsx
- PASS  components/searchable_channel_list.test.jsx
- PASS  components/post_view/show_more/show_more.test.jsx
- PASS  components/admin_console/team_channel_settings/group/group_users.test.tsx
- PASS  components/channel_notifications_modal/components/notification_section.test.jsx
- PASS  components/dot_menu/dot_menu_mobile.test.jsx
- PASS  components/sidebar/sidebar_tutorial_tip.test.jsx
- PASS  components/autocomplete_selector.test.jsx
- PASS  components/admin_console/permission_schemes_settings/permission_row.test.jsx
- PASS  components/post_view/post_flag_icon/post_flag_icon.test.js
- PASS  components/integrations/edit_incoming_webhook/edit_incoming_webhook.test.jsx
- PASS  components/channel_header_dropdown/menu_items/close_channel/close_channel.test.js
- PASS  components/analytics/line_chart.test.tsx
- PASS  components/error_page/error_title.test.tsx
- PASS  components/user_settings/notifications/desktop_notification_settings.test.jsx
- PASS  components/claim/components/ldap_to_email.test.js
- PASS  components/admin_console/team_channel_settings/group/group_users_row.test.tsx
- PASS  components/integrations/abstract_outgoing_webhook.test.jsx
- PASS  utils/text_formatting_mention_highlighting.test.jsx
- PASS  components/admin_console/brand_image_setting/upload_button.test.jsx
- PASS  components/invitation_modal/invitation_modal_confirm_step.test.jsx
- PASS  components/permalink_redirector/permalink_redirector.test.jsx
- PASS  actions/user_actions.test.js
- PASS  components/admin_console/jobs/table.test.jsx
- PASS  components/admin_console/team_channel_settings/team/team_settings.test.jsx
- PASS  components/interactive_dialog/dialog_introduction_text.test.jsx
- PASS  components/activity_log_modal/components/activity_log.test.jsx
- PASS  components/integrations/add_oauth_app/add_oauth_app.test.jsx
- PASS  components/post_view/message_attachments/action_menu/action_menu.test.jsx
- PASS  components/mfa/confirm.test.jsx
- PASS  utils/markdown/index.test.js
- PASS  components/invitation_modal/invitation_modal_guests_step.test.jsx
- PASS  components/invitation_modal/invitation_modal_members_step.test.jsx
- PASS  components/invitation_modal/invitation_modal_confirm_step_table.test.jsx
- PASS  components/file_attachment/file_thumbnail/file_thumbnail.test.tsx
- PASS  utils/text_formatting_at_mentions.test.jsx
- PASS  components/integrations/add_command/add_command.test.jsx
- PASS  utils/route.test.js
- PASS  components/audit_table/audit_table.test.jsx
- PASS  utils/text_formatting_hashtags.test.jsx
- PASS  utils/text_formatting_email.test.jsx
- PASS  components/user_settings/advanced/join_leave_section/join_leave_section.test.jsx
- PASS  components/channel_notifications_modal/components/expand_view.test.jsx
- PASS  components/pdf_preview.test.jsx
- PASS  components/channel_header_dropdown/menu_items/leave_channel/leave_channel.test.js
- PASS  components/admin_console/team_channel_settings/team/list/team_row.test.jsx
- PASS  components/file_info_preview/file_info_preview.test.tsx
- PASS  components/suggestion/search_suggestion_list.test.jsx
- PASS  components/audio_video_preview.test.jsx
- PASS  utils/channel_utils.test.jsx
- PASS  components/integrations/add_incoming_webhook/add_incoming_webhook.test.jsx
  PASS  components/youtube_video/youtube_video.test.jsx
- PASS  actions/emoji_actions.test.js
- PASS  components/invitation_modal/invitation_modal_confirm_step_row.test.jsx
- PASS  components/widgets/inputs/users_emails_input.test.jsx
- PASS  components/login/login_mfa.test.jsx
- PASS  components/admin_console/team_channel_settings/channel/list/channel_list.test.tsx
- PASS  components/integrations/add_outgoing_webhook/add_outgoing_webhook.test.jsx
- PASS  components/admin_console/team_channel_settings/channel/channel_settings.test.jsx
- PASS  components/user_settings/display/manage_languages/manage_languages.test.js
- PASS  components/channel_notifications_modal/components/collapse_view.test.jsx
- PASS  stores/local_storage_store.test.jsx
- PASS  components/message_submit_error.test.tsx
- PASS  selectors/emojis.test.js
- PASS  utils/text_formatting_imgs.test.jsx
- PASS  selectors/rhs.test.js
- PASS  components/admin_console/team_channel_settings/team/list/team_list.test.jsx
- PASS  components/setting_item_min/setting_item_min.test.tsx
- PASS  actions/emoji_actions.mock.test.js
- PASS  components/analytics/format.test.tsx
- PASS  components/admin_console/group_settings/group_settings.test.jsx
- PASS  components/suggestion/suggestion_list.test.jsx
- PASS  components/admin_console/team_channel_settings/team/details/team_profile.test.jsx
- PASS  utils/notifications.test.jsx
- PASS  actions/views/root.test.js
- PASS  selectors/i18n.test.js
- PASS  components/header_footer_template/header_footer_template.test.jsx
- PASS  components/about_build_modal/about_build_modal.test.jsx
- PASS  components/recent_date.test.tsx
- PASS  components/local_date_time/local_date_time.test.tsx
- PASS  components/suggestion/emoticon_provider.test.jsx
- PASS  utils/emoticons.test.tsx
- PASS  components/admin_console/group_settings/group_details/group_users.test.jsx
- PASS  actions/storage.test.js
- PASS  components/quick_input.test.jsx
- PASS  actions/views/login.test.js
- PASS  components/removed_from_channel_modal/removed_from_channel_modal.test.tsx
- PASS  components/modal_controller/modal_controller.test.jsx
- PASS  components/delete_post_modal/delete_post_modal.test.jsx
- PASS  components/get_link_modal.test.tsx
- PASS  actions/status_actions.test.js
- PASS  components/delete_channel_modal/delete_channel_modal.test.jsx
- PASS  components/shortcuts_modal.test.jsx
- PASS  components/post_deleted_modal.test.tsx
- PASS  components/toggle_modal_button_redux/toggle_modal_button_redux.test.jsx
- PASS  components/announcement_bar/announcement_bar.test.jsx
- PASS  reducers/views/rhs.test.js
- PASS  components/admin_console/system_users/list/selectors.test.jsx
- PASS  components/announcement_bar/version_bar/version_bar.test.jsx
- PASS  components/unarchive_channel_modal/unarchive_channel_modal.test.jsx
- PASS  components/overlay_trigger.test.tsx
- PASS  components/leave_private_channel_modal/leave_private_channel_modal.test.tsx
- PASS  components/user_settings/display/user_settings_theme/custom_theme_chooser.test.jsx
- PASS  components/permissions_gates/channel_permission_gate/channel_permission_gate.test.jsx
- PASS  components/sidebar/sidebar_channel_button_or_link/sidebar_channel_button_or_link_close_button.test.jsx
- PASS  components/password_reset_form/password_reset_form.test.js
- PASS  actions/views/modals.test.jsx
- PASS  selectors/lhs.test.js
- PASS  components/system_notice/system_notice.test.jsx
- PASS  components/confirm_modal.test.tsx
- PASS  plugins/mobile_channel_header_plug/mobile_channel_header_plug.test.jsx
- PASS  components/list_modal.test.jsx
- PASS  actions/integration_actions.test.js
- PASS  components/root_portal.test.jsx
- PASS  components/permissions_gates/team_permission_gate/team_permission_gate.test.tsx
- PASS  reducers/views/marketplace.test.js
- PASS  utils/policy_roles_adapter.test.jsx
- PASS  utils/server_version.test.tsx
- PASS  reducers/views/modals.test.jsx
- PASS  components/analytics/table_chart.test.jsx
- PASS  components/formatted_markdown_message.test.jsx
- PASS  components/permissions_gates/any_team_permission_gate/any_team_permission_gate.test.jsx
- PASS  components/suggestion/command_provider.test.js
- PASS  plugins/pluggable/pluggable.test.jsx
- PASS  components/widgets/inputs/channels_input.test.jsx
- PASS  components/widgets/admin_console/admin_header.test.tsx
- PASS  components/error_page/error_message.test.tsx
- PASS  components/channel_notifications_modal/components/describe.test.jsx
- PASS  components/suggestion/search_channel_with_permissions_provider.test.jsx
- PASS  actions/hooks.test.js
- PASS  components/sidebar/sidebar_channel_button_or_link/sidebar_channel_button_or_link_icon.test.jsx
- PASS  utils/file_utils.test.jsx
- PASS  components/password_reset_send_link/password_reset_send_link.test.js
- PASS  components/authorize/authorize.test.js
- PASS  components/post_view/date_separator/date_separator.test.jsx
- PASS  components/common/infinite_scroll.test.js
- PASS  reducers/views/lhs.test.js
- PASS  reducers/storage.test.js
- PASS  components/permissions_gates/system_permission_gate/system_permission_gate.test.jsx
- PASS  components/widgets/popover/popover.test.tsx
- PASS  components/color_input.test.tsx
- PASS  utils/filter_users.test.js
- PASS  components/view_image/popover_bar/popover_bar.test.jsx
- PASS  components/widgets/modals/full_screen_modal.test.tsx
- PASS  actions/views/mfa.test.js
- PASS  components/admin_console/schema_text.test.jsx
- PASS  components/localized_icon.test.tsx
- PASS  components/channel_notifications_modal/components/section_title.test.jsx
- PASS  components/widgets/menu/menu_items/menu_item_toggle_modal_redux.test.tsx
- PASS  components/more_direct_channels/group_message_option.test.jsx
- PASS  components/widgets/admin_console/admin_panel.test.tsx
- PASS  components/channel_notifications_modal/components/extra_info.test.jsx
- PASS  components/view_image/image_preview.test.jsx
- PASS  components/spinner_button.test.tsx
- PASS  components/channel_header_mobile/unmute_channel_button/unmute_channel_button.test.js
- PASS  actions/views/lhs.test.js
- PASS  components/widgets/admin_console/admin_panel_with_link.test.tsx
- PASS  components/admin_console/color_setting.test.tsx
- PASS  components/link_tooltip/link_tooltip.test.tsx
- PASS  utils/emoji.test.jsx
- PASS  selectors/views/marketplace.test.js
- PASS  actions/team_actions.test.js
- PASS  reducers/views/browser.test.js
- PASS  reducers/views/search.test.js
- PASS  components/widgets/admin_console/admin_panel_togglable.test.tsx
- PASS  components/save_button.test.tsx
- PASS  components/localized_input/localized_input.test.tsx
- PASS  utils/paste.test.tsx
- PASS  components/admin_console/team_channel_settings/channel/list/channel_row.test.tsx
- PASS  components/admin_console/team_channel_settings/channel/details/channel_modes.test.tsx
- PASS  components/widgets/admin_console/admin_panel_with_button.test.tsx
- PASS  components/widgets/separator/separator.test.tsx
- PASS  components/admin_console/team_channel_settings/team/details/team_modes.test.jsx
- PASS  components/emoji_picker/components/emoji_picker_header.test.jsx
- PASS  components/unread_channel_indicator.test.tsx
- PASS  components/should_verify_email/should_verify_email.test.js
- PASS  utils/dragster.test.ts
- PASS  components/backstage/components/backstage_header.test.jsx
- PASS  components/post_view/commented_on_files_message/commented_on_files_message.test.jsx
- PASS  components/post_view/failed_post_options/failed_post_options.test.jsx
- PASS  components/common/site_name_and_description.test.tsx
- PASS  components/msg_typing/msg_typing.test.tsx
- PASS  components/widgets/admin_console/formatted_admin_header.test.tsx
- PASS  components/search_hint/search_hint.test.tsx
- PASS  utils/url.test.tsx
- PASS  components/analytics/statistic_count.test.tsx
- PASS  components/widgets/loading/loading_wrapper.test.tsx
- PASS  components/admin_console/team_channel_settings/channel/details/channel_profile.test.tsx
  PASS  components/copy_url_context_menu/copy_url_context_menu.test.jsx
- PASS  components/autosize_textarea.test.jsx
- PASS  components/widgets/settings/text_setting.test.tsx
- PASS  components/admin_console/radio_setting.test.tsx
- PASS  components/admin_console/group_settings/group_details/group_users_row.test.jsx
- PASS  components/post_emoji/post_emoji.test.tsx
- PASS  components/search_hint/flag_post_search_hint.test.jsx
+ PASS  components/admin_console/team_channel_settings/group/group_users.test.tsx
+ PASS  components/channel_notifications_modal/components/expand_view.test.jsx
+ PASS  components/admin_console/system_user_detail/team_list/team_list.test.tsx
+ PASS  components/integrations/abstract_outgoing_webhook.test.jsx
+ PASS  components/search_results/search_results.test.jsx
+ PASS  components/team_members_modal/team_members_modal.test.tsx
+ PASS  components/post_view/date_separator/date_separator.test.jsx
+ PASS  components/widgets/menu/menu_items/menu_item.test.tsx
+ PASS  components/channel_header_mobile/channel_info_button/channel_info_button.test.js
+ PASS  components/user_settings/display/manage_timezones/manage_timezones.test.js
+ PASS  utils/team_utils.test.jsx
+ PASS  components/spinner_button.test.tsx
+ PASS  components/create_team/create_team.test.jsx
+ PASS  components/post_view/message_attachments/action_menu/action_menu.test.jsx
+ PASS  components/widgets/settings/bool_setting.test.tsx
+ PASS  components/mfa/confirm.test.jsx
+ PASS  actions/views/lhs.test.js
+ PASS  components/admin_console/team_channel_settings/team/details/team_details.test.jsx
+ PASS  utils/youtube.test.js
+ PASS  components/channel_header_dropdown/menu_items/view_pinned_posts/view_pinned_posts.test.js
+ PASS  components/post_view/commented_on_files_message/commented_on_files_message.test.jsx
+ PASS  components/toggle_modal_button_redux/toggle_modal_button_redux.test.jsx
+ PASS  components/channel_notifications_modal/components/collapse_view.test.jsx
+ PASS  components/widgets/menu/menu_items/menu_item_toggle_modal_redux.test.tsx
+ PASS  components/admin_console/custom_terms_of_service_settings/custom_terms_of_service_settings.test.jsx
+ PASS  components/widgets/loading/loading_wrapper.test.tsx
+ PASS  components/admin_console/brand_image_setting/brand_image_setting.test.jsx
+ PASS  selectors/rhs.test.js
+ PASS  plugins/test/post_type.test.jsx
+ PASS  components/admin_console/brand_image_setting/upload_button.test.jsx
+ PASS  components/dot_menu/dot_menu_empty.test.jsx
+ PASS  components/analytics/line_chart.test.tsx
+ PASS  components/do_verify_email/do_verify_email.test.jsx
+ PASS  components/channel_layout/channel_identifier_router/channel_identifier_router.test.jsx
+  ● Console
+
+    console.error node_modules/prop-types/factoryWithTypeCheckers.js:23
+      Warning: Invalid argument supplied to oneOf, expected an array.
+
+ PASS  components/save_button.test.tsx
+ PASS  components/widgets/menu/menu_items/menu_item_action.test.tsx
+ PASS  components/invitation_modal/invitation_modal_guests_step.test.jsx
+ PASS  components/dot_menu/dot_menu_mobile.test.jsx
+ PASS  components/post_view/post_attachment_opengraph/get_nearest_point.test.js
+ PASS  components/localized_icon.test.tsx
+ PASS  reducers/views/browser.test.js
+ PASS  components/password_reset_form/password_reset_form.test.js
+ PASS  components/channel_header_dropdown/menu_items/close_channel/close_channel.test.js
+ PASS  components/widgets/admin_console/formatted_admin_header.test.tsx
+ PASS  components/integrations/add_incoming_webhook/add_incoming_webhook.test.jsx
+ PASS  components/post_view/reaction_list/reactions_list.test.jsx
+ PASS  components/searchable_channel_list.test.jsx
+ PASS  components/channel_header_dropdown/channel_header_dropdown.test.jsx
+ PASS  components/emoji/delete_emoji_modal.test.jsx
+ PASS  components/user_settings/display/user_settings_theme/custom_theme_chooser.test.jsx
+ PASS  components/invitation_modal/invitation_modal_members_step.test.jsx
+ PASS  components/password_reset_send_link/password_reset_send_link.test.js
+ PASS  components/post_view/post_reaction/post_reaction.test.jsx
+ PASS  components/admin_console/team_channel_settings/channel/details/channel_groups.test.tsx
+ PASS  components/common/site_name_and_description.test.tsx
+ PASS  components/admin_console/text_setting.test.tsx
+ PASS  components/channel_header_mobile/unmute_channel_button/unmute_channel_button.test.js
+ PASS  components/channel_notifications_modal/components/section_title.test.jsx
+ PASS  components/widgets/loading/loading_spinner.test.tsx
+ PASS  components/channel_notifications_modal/components/extra_info.test.jsx
+ PASS  components/admin_console/permission_schemes_settings/permission_checkbox.test.jsx
  PASS  components/activity_log_modal/components/more_info.test.tsx
+ PASS  components/admin_console/team_channel_settings/channel/list/channel_row.test.tsx
+ PASS  selectors/emojis.test.js
+ PASS  components/file_info_preview/file_info_preview.test.tsx
+ PASS  components/analytics/statistic_count.test.tsx
+ PASS  components/msg_typing/msg_typing.test.tsx
+ PASS  components/should_verify_email/should_verify_email.test.js
+ PASS  components/channel_view/channel_view.test.jsx
+  ● Console
+
+    console.error node_modules/prop-types/factoryWithTypeCheckers.js:23
+      Warning: Invalid argument supplied to oneOf, expected an array.
+
+ PASS  components/widgets/team_icon/team_icon.test.tsx
+ PASS  components/file_upload_overlay.test.tsx
+ PASS  components/file_preview/file_progress_preview.test.jsx
+ PASS  components/admin_console/team_channel_settings/team/details/team_groups.test.jsx
+ PASS  components/markdown/markdown.test.jsx
+ PASS  actions/emoji_actions.test.js
+ PASS  components/channel_layout/center_channel/center_channel.test.tsx
+  ● Console
+
+    console.error node_modules/prop-types/factoryWithTypeCheckers.js:23
+      Warning: Invalid argument supplied to oneOf, expected an array.
+
+ PASS  components/emoji_picker/components/emoji_picker_header.test.jsx
+ PASS  reducers/views/search.test.js
+ PASS  components/claim/components/ldap_to_email.test.js
+ PASS  components/analytics/table_chart.test.jsx
+ PASS  components/suggestion/search_suggestion_list.test.jsx
+ PASS  components/suggestion/suggestion_list.test.jsx
+ PASS  components/interactive_dialog/dialog_introduction_text.test.jsx
+ PASS  components/user_settings/display/manage_languages/manage_languages.test.js
+ PASS  components/admin_console/manage_teams_modal/remove_from_team_button.test.jsx
+ PASS  components/widgets/separator/separator.test.tsx
+ PASS  components/announcement_bar/version_bar/version_bar.test.jsx
+ PASS  components/suggestion/command_provider.test.js
+ PASS  components/widgets/users/avatar.test.tsx
+ PASS  components/audio_video_preview.test.jsx
+ PASS  components/post_emoji/post_emoji.test.tsx
+ PASS  components/root_portal.test.jsx
+ PASS  components/post_view/message_attachments/action_button.test.jsx
+ PASS  components/integrations/add_outgoing_webhook/add_outgoing_webhook.test.jsx
+ PASS  components/loading_image_preview.test.tsx
+ PASS  components/integrations/add_oauth_app/add_oauth_app.test.jsx
+ PASS  components/search_hint/no_result_search_hint.test.jsx
+ PASS  components/search_hint/flag_post_search_hint.test.jsx
+ PASS  components/search_hint/pin_post_search_hint.test.jsx
+ PASS  components/user_profile/user_profile.test.jsx
+ PASS  utils/latinise.test.tsx
+ PASS  components/backstage/components/backstage_header.test.jsx
+ PASS  components/admin_console/team_channel_settings/channel/details/channel_profile.test.tsx
+ PASS  components/team_settings_modal/team_settings_modal.test.jsx
  PASS  components/widgets/badges/badge.test.tsx
  PASS  components/widgets/menu/menu_group.test.tsx
- PASS  components/widgets/menu/menu_items/menu_item.test.tsx
- PASS  components/admin_console/permission_schemes_settings/permission_checkbox.test.jsx
- PASS  components/admin_console/group_settings/group_details/group_profile.test.jsx
- PASS  components/admin_console/manage_teams_modal/remove_from_team_button.test.jsx
- PASS  components/search_hint/pin_post_search_hint.test.jsx
- PASS  components/widgets/menu/menu_items/menu_item_link.test.tsx
- PASS  components/widgets/users/avatar.test.tsx
- PASS  components/widgets/settings/bool_setting.test.tsx
- PASS  components/widgets/badges/bot_badge.test.tsx
- PASS  components/post_view/post_attachment_opengraph/get_nearest_point.test.js
- PASS  utils/youtube.test.js
- PASS  utils/team_utils.test.jsx
- PASS  utils/latinise.test.tsx
- PASS  selectors/storage.test.js
- PASS  components/admin_console/text_setting.test.tsx
- PASS  components/loading_image_preview.test.tsx
- PASS  utils/position_utils.test.tsx
- PASS  components/search_hint/no_result_search_hint.test.jsx
- PASS  components/post_view/new_message_separator/new_message_separator.test.jsx
- PASS  components/file_upload_overlay.test.tsx
- PASS  components/invitation_modal/invitation_modal_initial_step.test.jsx
- PASS  components/widgets/menu/menu_items/menu_item_external_link.test.tsx
- PASS  components/search_hint/data_retention_hint.test.jsx
- PASS  components/user_settings/display/user_settings_theme/color_chooser.test.jsx
- PASS  components/widgets/loading/loading_spinner.test.tsx
- PASS  components/error_page/error_link.test.tsx
- PASS  components/widgets/menu/menu_items/menu_item_action.test.tsx
- PASS  components/widgets/settings/radio_setting.test.tsx
+ PASS  components/link_tooltip/link_tooltip.test.tsx
+ PASS  components/analytics/format.test.tsx
+ PASS  components/admin_console/group_settings/group_details/group_users_row.test.jsx
+ PASS  components/integrations/add_command/add_command.test.jsx
  PASS  selectors/views/modals.test.js
+ PASS  components/shortcuts_modal.test.jsx
+ PASS  utils/position_utils.test.tsx
+ PASS  components/admin_console/team_channel_settings/group/group_row.test.tsx
+ PASS  components/admin_console/team_channel_settings/team/list/team_row.test.jsx
+ PASS  selectors/lhs.test.js
+ PASS  components/admin_console/team_channel_settings/team/details/team_modes.test.jsx
+ PASS  components/error_page/error_link.test.tsx
+ PASS  components/widgets/menu/menu_items/menu_item_external_link.test.tsx
+ PASS  components/search_hint/search_hint.test.tsx
+ PASS  components/invitation_modal/invitation_modal_confirm_step_table.test.jsx
+ PASS  components/admin_console/admin_navbar_dropdown/menu_item_blockable_link.test.tsx
+ PASS  components/invitation_modal/invitation_modal_initial_step.test.jsx
+ PASS  components/widgets/menu/menu_items/menu_item_link.test.tsx
+ PASS  components/widgets/badges/guest_badge.test.tsx
+ PASS  components/user_settings/display/user_settings_theme/color_chooser.test.jsx
+ PASS  components/widgets/badges/bot_badge.test.tsx
+ PASS  components/admin_console/team_channel_settings/channel/details/channel_modes.test.tsx
+ PASS  components/widgets/admin_console/admin_header.test.tsx
+ PASS  components/admin_console/team_channel_settings/channel/channel_settings.test.jsx
+ PASS  components/admin_console/team_channel_settings/team/details/team_profile.test.jsx
+ PASS  components/admin_console/group_settings/group_details/group_profile.test.jsx
+ PASS  components/admin_console/team_channel_settings/team/team_settings.test.jsx
+ PASS  components/search_hint/data_retention_hint.test.jsx
+ PASS  components/post_view/new_message_separator/new_message_separator.test.jsx
+ PASS  components/admin_console/group_settings/group_settings.test.jsx
+ PASS  components/autosize_textarea.test.jsx
+ PASS  components/widgets/popover/popover.test.tsx
 
 Test Suites: 459 passed, 459 total
 Tests:       3012 passed, 3012 total
 Snapshots:   1163 passed, 1163 total
-Time:        173.703s
+Time:        251.453s
 Ran all test suites.
