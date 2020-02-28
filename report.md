@@ -126,6 +126,10 @@ Kasper: 4.5 hours
 
 Looking for new projects with Johan, discussed report writing with Gabriel and to find the actual issue to work on with Robin. 
 
+Robin: 3 hours
+
+Discussed potential issues with Kasper and the typescript conventions in the repository with Adam and Gabriel.
+
 3. reading documentation;
 
 Gabriel: 3 hours
@@ -135,6 +139,10 @@ First off I looked through the mattermost [documentation](https://developers.mat
 Kasper: 3 hours
 
 I went through the same process as Gabriel.
+
+Robin: 3.5 hours
+
+I basically did the same stuff as Gabriel, a lot of time spent looking through old issues and PRs to understand their conventions.
 
 4. configuration and setup;
 
@@ -153,14 +161,20 @@ Kasper: 1.5 hours
 
 It went quite smoothly for the most part, but we had some issues with getting the Docker environment to work properly. After reinstalling it and its dependencies it magically started working.
 
+Robin: 2.5 hours
+
+My computer is old as @#%$ and I had some problems with node/npm.
+
 5. analyzing code/output;
 
 Gabriel: 1.5 hours
 
 Kasper: 1.5 hours
 
-Analyzing relevant tests and code in order to add documentation for them and to figure out types to use for variables that require them.
+Robin: 2 hours
 
+Analyzing relevant tests and code in order to add documentation for them and to figure out types to use for variables that require them.
+ 
 6. writing documentation;
 
 Gabriel: 4 hours
@@ -168,6 +182,10 @@ Gabriel: 4 hours
 Kasper: 2 hours
 
 Writing code documentation and report
+
+Robin: 3 hours
+
+Code documentation for the tests and report writing, also helped with the UML class diagram.
 
 7. writing code;
 
@@ -178,6 +196,10 @@ Not a lot of code had to be changed in my assigned file, just took a little bit 
 Kasper: 6 hours
 
 Mainly worked on manage_auto_responder file and manage_auto_responder.test file. Had to change proptypes to Props in manage_auto_responder file and move them outside of the function and update some parameters. There was some issue with some of the props and I had to get in touch with the developers whom gave me premission to add the props in autosize_textarea. Gabriel pair-programmed with me on manage_auto_responder.
+
+Robin: 4.5 hours
+
+My assigned work was on index and desktop_notification_settings, but as Gabriel it took some time to understand typescript and the changes themselves were not that large. I did some pair-programming with Adam during the remaining time.
 
 8. running code?
 
