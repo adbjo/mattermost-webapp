@@ -167,8 +167,8 @@ I basically did the same stuff as Gabriel, a lot of time spent looking through o
 
 Adam: 3 hours
 
-Same as Gabriel.
-Also went over the contributor guidelines over at [mattermost](https://developers.mattermost.com/contribute/getting-started/contribution-checklist/). And
+- Same as Gabriel.
+- Went over the contributor guidelines over at [mattermost](https://developers.mattermost.com/contribute/getting-started/contribution-checklist/), and examined issues and pull request already on the repo to understand their practices and conventions.
 
 4. configuration and setup;
 
@@ -183,15 +183,20 @@ To setup the development environment, these dependencies were needed:
 
 Gabriel: 1.5 hours
 
+It went quite smoothly for the most part, but we had some issues with getting the Docker environment to work properly. After reinstalling it and its dependencies it magically started working.
+
 Kasper: 1.5 hours
 
 Johan: 1.5 hours
 
 Robin: 2.5 hours
 
-It went quite smoothly for the most part, but we had some issues with getting the Docker environment to work properly. After reinstalling it and its dependencies it magically started working.
-
 My computer is old as @#%$ and I had some problems with node/npm.
+
+Adam: 2 hours
+
+- Forked the repo and managed development branches
+- Setup was very smooth thanks to great guides available at the repo owners website.
 
 5. analyzing code/output;
 
@@ -220,6 +225,10 @@ Code documentation for the tests and report writing, also helped with the UML cl
 
 Johan: 3 hours
 
+Adam: 3 hours
+
+- Co-wrote UML class diagram with Robin.
+
 7. writing code;
 
 Gabriel: 5 hours
@@ -238,12 +247,12 @@ Johan: 7 hours
 
 Had `user_settings_notifications.tsx` as main file to migrate. This was the primary file in the folder and therefor had quite a lot of connections, internally to other components in the folder as well as externally through props from parent components. To get all the prop and state types correct I had to do a lot of research into neighboring components as well as into the redux files. This led me to the `UserProfile` interface and the `utils/constants.jsx` files. The latter had to be converted into typescript to gain type benefits to `user_settings_notifications.tsx`. This further led down to finding a few bugs as well as a few questions regarding these external resources.
 
-8. running code?
+Adam: 5 hours
 
-
-For setting up tools and libraries (step 4), enumerate all dependencies
-you took care of and where you spent your time, if that time exceeds
-30 minutes.
+- Migrated desktop_notifications_setting to typescript.
+- Helped Kasper with migrating manage_auto_responder.
+- Rebased and cleaned the patch branch.
+- Squashed our branch and resolved conflicts in preparation for the pull request.
 
 ## Overall experience
 
