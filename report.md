@@ -139,6 +139,10 @@ Looking for new projects with Johan, discussed report writing with Gabriel and t
 Robin: 3 hours
 
 Discussed potential issues with Kasper and Adam and the typescript conventions in the repository with Adam and Gabriel.
+
+Johan: 3.5 hour
+Looking for new projects with Kasper, and being the local typescript-guru, helping everyone in the group.
+
 3. reading documentation;
 
 Gabriel: 3 hours
@@ -168,6 +172,8 @@ Gabriel: 1.5 hours
 
 Kasper: 1.5 hours
 
+Johan: 1.5 hours
+
 Robin: 2.5 hours
 
 It went quite smoothly for the most part, but we had some issues with getting the Docker environment to work properly. After reinstalling it and its dependencies it magically started working.
@@ -195,6 +201,8 @@ Kasper: 2 hours
 Robin: 3 hours
 
 Code documentation for the tests and report writing, also helped with the UML class diagram.
+
+Johan: 3 hours
 
 7. writing code;
 
