@@ -28,6 +28,7 @@ The project we ended up working on was Mattermost, an open source and self hoste
 ## UML class diagram and its description
 
 Optional (point 1): Architectural overview.
+[UML](https://github.com/adbjo/mattermost-webapp/blob/Documentation_Report/doc_imgs/uml_diagram.pdf).
 
 Optional (point 2): relation to design pattern(s).
 
