@@ -52,6 +52,17 @@ Optional (point 3): trace tests to requirements.
 Overall results with link to a copy or excerpt of the logs (before/after
 refactoring).
 
+#### Strongbox
+[Test results before refactoring](https://github.com/adbjo/mattermost-webapp/blob/Documentation_Report/doc_logs/testlog_strongbox)
+
+Considering we didn't actually refactor their code, since we chose anotehr project, there are no tests results after the refactor because it never happened.
+
+#### Mattermost
+
+[Test results before refactoring](https://github.com/adbjo/mattermost-webapp/blob/Documentation_Report/doc_logs/testlog_before_mattermost)
+
+[Test results after refactoring](https://github.com/adbjo/mattermost-webapp/blob/Documentation_Report/doc_logs/testlog_after_mattermost)
+
 ### Patch/fix
 
 The fix can be copied or linked to (git diff).
