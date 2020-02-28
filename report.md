@@ -124,11 +124,11 @@ Discussed report writing with Kasper and typescript conventions in repository wi
 
 Kasper: 4.5 hours
 
-Looking for new projects with Johan, discussed report writing with Gabriel and to find the actual issue to work on with Robin. 
+Looking for new projects with Johan, discussed report writing with Gabriel and to find the actual issue to work on with Robin and Adam. 
 
 Robin: 3 hours
 
-Discussed potential issues with Kasper and the typescript conventions in the repository with Adam and Gabriel.
+Discussed potential issues with Kasper and Adam and the typescript conventions in the repository with Adam and Gabriel.
 
 3. reading documentation;
 
