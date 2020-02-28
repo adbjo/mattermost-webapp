@@ -200,7 +200,7 @@ Code documentation for the tests and report writing, also helped with the UML cl
 
 Gabriel: 5 hours
 
-Not a lot of code had to be changed in my assigned file, just took a little bit for me to figure out how typescript properly worked. Most of my time was spent pair-programming with Kasper on the manage_auto_responder file.
+Not a lot of code had to be changed in my assigned file which was user_settings_notifications.test.tsx, just took a little bit for me to figure out how typescript properly worked. Most of my time was spent pair-programming with Kasper on the manage_auto_responder file.
 
 Robin: 4.5 hours
 
