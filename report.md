@@ -43,6 +43,15 @@ Migrate the code from Javascript to TypeScript for the files.
 
 ### Requirements affected by functionality being refactored
 
+##### #1 Rename to .tsx
+All files (except in subfolder) in the folder `components/user_settings/notifications` should have their file extensions changed from `.js(x)` to `.ts(x)`.
+
+##### #2 Update `import` statements
+All `import X from 'Y.js(x)'` where `Y` is a file in `components/user_settings/notifications` should be changed to `import X from 'Y'`. 
+
+##### #3 Solve type errors 
+All type checks should pass. To test this, run `make check-types` or `npm run check-types`.
+
 Optional (point 3): trace tests to requirements.
 
 ### Existing test cases relating to refactored code
