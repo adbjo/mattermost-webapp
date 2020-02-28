@@ -143,6 +143,12 @@ Discussed potential issues with Kasper and Adam and the typescript conventions i
 Johan: 3.5 hour
 Looking for new projects with Kasper, and being the local typescript-guru, helping everyone in the group.
 
+Adam: 3 hours
+
+- Discussed TypeScript principles and conventions with Robin and Gabriel.
+- Browsed the mattermost-server repo together with Robin and Kasper to find a suitable issue.
+- Communicated with the mattermost developers to get us assigned to the issue.
+
 3. reading documentation;
 
 Gabriel: 3 hours
@@ -156,6 +162,11 @@ I went through the same process as Gabriel.
 Robin: 3.5 hours
 
 I basically did the same stuff as Gabriel, a lot of time spent looking through old issues and PRs to understand their conventions.
+
+Adam: 3 hours
+
+Same as Gabriel.
+Also went over the contributor guidelines over at [mattermost](https://developers.mattermost.com/contribute/getting-started/contribution-checklist/). And
 
 4. configuration and setup;
 
