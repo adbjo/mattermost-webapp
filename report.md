@@ -261,6 +261,18 @@ Adam: 5 hours
 - Rebased and cleaned the patch branch.
 - Squashed our branch and resolved conflicts in preparation for the pull request.
 
+#### Total hours
+
+Gabriel: 25.5h
+
+Kasper: 26.5h
+
+Robin: 26.5h
+
+Johan: 29.5h
+
+Adam: 29.0h
+
 ## Overall experience
 
 What are your main take-aways from this project? What did you learn?
