@@ -119,13 +119,13 @@ We all went through the documentation and tried to understand the code. We reali
 
 For each team member, how much time was spent in
 
-1. plenary discussions/meetings;
+### 1. plenary discussions/meetings;
 
 Everyone: 2.5 hours
 
 Took a while to find another project, which we looked for by going through different github repositories that had a lot of issues, good documentation and the 'good first issue' label. Once mattermost was found we started to read up on documentation and set it up.
 
-2. discussions within parts of the group;
+### 2. discussions within parts of the group;
 
 Gabriel: 2.5 hours
 
@@ -148,7 +148,7 @@ Adam: 3 hours
 - Browsed the mattermost-server repo together with Robin and Kasper to find a suitable issue.
 - Communicated with the mattermost developers to get us assigned to the issue.
 
-3. reading documentation;
+### 3. reading documentation;
 
 Gabriel: 3 hours
 
@@ -170,7 +170,7 @@ Adam: 3 hours
 - Same as Gabriel.
 - Went over the contributor guidelines over at [mattermost](https://developers.mattermost.com/contribute/getting-started/contribution-checklist/), and examined issues and pull request already on the repo to understand their practices and conventions.
 
-4. configuration and setup;
+### 4. configuration and setup;
 
 To setup the Mattermost server:
 - Docker CE was installed and configured
@@ -198,7 +198,7 @@ Adam: 2 hours
 - Forked the repo and managed development branches
 - Setup was very smooth thanks to great guides available at the repo owners website.
 
-5. analyzing code/output;
+### 5. analyzing code/output;
 
 Gabriel: 1.5 hours
 
@@ -211,7 +211,14 @@ Robin: 2 hours
 Johan: 4h
 See point 7.
 
-6. writing documentation;
+Adam: 5 hours
+
+- Ran tests after each commit to make sure things were working.
+- Migrated code snapshots to typescript.
+- Identified other modules affected by our patch.
+- Compiled the final commit message for the squashed commit for our patch
+
+### 6. writing documentation;
 
 Gabriel: 4 hours
 
@@ -229,7 +236,7 @@ Adam: 3 hours
 
 - Co-wrote UML class diagram with Robin.
 
-7. writing code;
+### 7. writing code;
 
 Gabriel: 5 hours
 
