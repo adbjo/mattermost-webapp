@@ -52,7 +52,7 @@ All `import X from 'Y.js(x)'` where `Y` is a file in `components/user_settings/n
 ##### #3 Solve type errors 
 All type checks should pass. To test this, run `make check-types` or `npm run check-types`.
 
-Optional (point 3): trace tests to requirements.
+The relevant test for these requirements is running the `@types/marked` library (by running task `check-types`) which will fail if any type error is found, as well as running the test suite (`npm run test`) which compares the stated types against the data in the test. As no functionality should be changed by resolving these requirements, no explicit test cases are relevant, but instead the regression suite as a whole decides if the requirements are followed or not.
 
 ### Existing test cases relating to refactored code
 
