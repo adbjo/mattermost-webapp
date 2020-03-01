@@ -33,7 +33,14 @@ Optional (point 1): Architectural overview.
 Optional (point 2): relation to design pattern(s).
 
 ## Selected issue(s)
+### Strongbox
+Title: Implement strict checksum validation for proxy repositories resolving from remotes
 
+URL: https://github.com/strongbox/strongbox/issues/1398
+
+Implement configurable strict checksum validation for repositories fetched from proxies. Testing would require setting up a proxy server for hosting a repository in addition to running the strongbox server. Due to our limited experience with hosting repositories we figured we would not have enough time make much progrees on this issue. Also, we were in contact with the strongbox developers who agreed, saying: "\[these other issues\] might be easier for you to do given your timeframe". We found the mattermost repository and decided to go with one of their issues instead.
+
+### Mattermost
 Title: Migrate 'components/user_settings/notifications' module and associated tests to TypeScript
 
 URL: https://github.com/mattermost/mattermost-server/issues/13690
